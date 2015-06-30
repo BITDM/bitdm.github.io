@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-permalink: /assignment1/
+permalink: /projects/
 ---
 
 # 数据挖掘项目
