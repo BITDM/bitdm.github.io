@@ -53,7 +53,7 @@ a:visited { color: #205caa; }
 }
 .materials-item a{
   color: #333;
-  display: block;
+  /* display: block;*/
   padding: 3px;
 }
 .materials-item {
