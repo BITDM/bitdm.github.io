@@ -1,6 +1,10 @@
-# 数据挖掘项目
+---
+layout: page
+mathjax: true
+permalink: /assignment1/
+---
 
-[TOC]
+# 数据挖掘项目
 
 ## 大众点评用户评论大数据分析
 
