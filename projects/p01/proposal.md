@@ -4,8 +4,6 @@ mathjax: true
 permalink: /projects/p01/proposal/
 ---
 
-# 数据挖掘项目
-
 ## 大众点评用户评论大数据分析
 
 > 题目确定时间：2015.6.1
