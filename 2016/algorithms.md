@@ -1,7 +1,7 @@
 ---
 layout: page
-title：算法清单
-permlinks：/2016/algorithms/
+title: 算法清单
+permlinks: /2016/algorithms/
 ---
 
 ## 算法清单
