@@ -4,9 +4,8 @@ email: simontangbit@bit.edu.cn
 description: "数据挖掘的相关材料"
 baseurl: ""
 url: "http://bitdm.github.io"
-#twitter_username: cs231n
 # github_username:  bitdm
 
 # Build settings
-markdown: redcarpet
+markdown: kramdown
 permalink: pretty
