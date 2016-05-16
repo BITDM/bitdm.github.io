@@ -4,9 +4,6 @@ mathjax: true
 permalink: /algorithms/fpm/
 ---
 
-|内容|
-|:----------|
-|频繁模式挖掘|
 
 
 ##频繁模式挖掘
