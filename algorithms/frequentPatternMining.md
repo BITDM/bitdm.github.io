@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-permalink: /algorithm/fpm/
+permalink: /algorithms/frequentPatternMining/
 ---
 
 ##频繁模式挖掘
