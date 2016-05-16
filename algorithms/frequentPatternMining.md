@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-permalink: /algorithms/frequentPatternMining/
+permalink: /algorithms/fpm/
 ---
 
 以下是当前分组情况，对应Project题目置于相应分组信息之前；请还未定Project的同学尽快提交，模板请参看出题优课程讨论区。ps，不定期更新，有延迟还请见谅
