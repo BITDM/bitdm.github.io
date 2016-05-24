@@ -7,7 +7,9 @@ permalink: /algolist/
 > This is the algorithm list prepared for the course short presentations, as lecturer could not cover all these materials in details, students are encourged to select algorithms from the list and give a small lecture in class on the selected algorithm, this count towards your final grade.
 
 ## Top 10 algorithms for Data Mining
-We refered to this [blog](http://blog.csdn.net/leo2007608/article/details/9347863) for listing 10 influential algorithms reported in ICDM 2006.
+
+We referred to this [blog](http://blog.csdn.net/leo2007608/article/details/9347863) for listing 10 influential algorithms reported in ICDM 2006.
+
 + C4.5-which inherits ID3 for building decision trees in classification tasks.
 + K-Means algorithm-one clustering algorithm.
 + Support Vector Machines-Supervised learning methodology used in statistical classification and regression by pursuing maximum distance between super planes.
