@@ -16,7 +16,7 @@ We referred to this [blog](http://blog.csdn.net/leo2007608/article/details/93478
 + The Apriori algorithm-for mining frequent patterns(frequent itemset mining).
 + Expectation Maximization-to handle latent variables in probabilistic models.
 + PageRank-Larry Page owns this patent, the co-founder of google.
-+ AdaBoost-An iterative algorithm for combining weak classifiers  to form a strong one.
++ AdaBoost-An iterative algorithm for combining weak classifiers  to form a strong one.(崔绿叶)
 + K-Nearest Neighbor-For finding k nearest neighbor of an instance in feature space. (张燕妮2120151065，韩梦乔2120150989)
 + Naive Bayes-Naive but powerful.
 + CART-Classification and Regression Trees.
