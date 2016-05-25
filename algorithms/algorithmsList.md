@@ -11,7 +11,7 @@ permalink: /algolist/
 We referred to this [blog](http://blog.csdn.net/leo2007608/article/details/9347863) for listing 10 influential algorithms reported in ICDM 2006.
 
 + C4.5-which inherits ID3 for building decision trees in classification tasks.
-+ K-Means algorithm-one clustering algorithm.
++ K-Means algorithm-one clustering algorithm. (刘畅 2120151011，罗佩 2120151019)
 + Support Vector Machines-Supervised learning methodology used in statistical classification and regression by pursuing maximum distance between super planes.
 + The Apriori algorithm-for mining frequent patterns(frequent itemset mining).
 + Expectation Maximization-to handle latent variables in probabilistic models.
@@ -49,7 +49,7 @@ We referred to this [blog](http://blog.csdn.net/leo2007608/article/details/93478
 + TrAdaBoost (Transfer AdaBoost)
 + Active learning
 + NDPMine algorithm
-+ k-medoids algorithm
++ k-medoids algorithm 
 + PartitioningAroundMedoids(PAM)algorithm 
 + CLARA (ClusteringLARgeApplications)
 + PAMalgorithm
