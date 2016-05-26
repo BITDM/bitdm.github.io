@@ -23,7 +23,7 @@ We referred to this [blog](http://blog.csdn.net/leo2007608/article/details/93478
 
 ## More algorithms covered in *Data Mining Concepts and Techniques*(Jiawei Han, Micheline Kamber, Jian Pei)
 + Sequential covering algorithm
-+ Genetic algorithm
++ Genetic algorithm. (曹文强 2120150977，李艳东 2120151006)
 + Discrete wavelet transform
 + Discrete fourier transform
 + Neural network backpropagation algorithm
