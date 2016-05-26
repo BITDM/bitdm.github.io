@@ -15,7 +15,7 @@ We referred to this [blog](http://blog.csdn.net/leo2007608/article/details/93478
 + Support Vector Machines-Supervised learning methodology used in statistical classification and regression by pursuing maximum distance between super planes.
 + The Apriori algorithm-for mining frequent patterns(frequent itemset mining).
 + Expectation Maximization-to handle latent variables in probabilistic models.
-+ PageRank-Larry Page owns this patent, the co-founder of google.
++ PageRank-Larry Page owns this patent, the co-founder of google.(李凯霞 2120151003）
 + AdaBoost-An iterative algorithm for combining weak classifiers  to form a strong one.(崔绿叶)
 + K-Nearest Neighbor-For finding k nearest neighbor of an instance in feature space. (张燕妮2120151065，韩梦乔2120150989)
 + Naive Bayes-Naive but powerful.
