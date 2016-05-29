@@ -122,7 +122,7 @@ permalink: /2016/groups/
 
 |组号|姓名|学号|作业一|
 |:-------------|:-------------|:-----|:-----|
-|16|吴松泽|2120151048|
+|16|吴松泽|2120151048|https://github.com/songzepein/DM-|
 |16|刘琳|2120151012|
 |16|徐程程|2120151049|https://github.com/dbc1040/DMCourse/blob/master/HW_1.zip
 
