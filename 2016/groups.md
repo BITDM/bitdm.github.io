@@ -31,7 +31,7 @@ permalink: /2016/groups/
 
 |组号|姓名|学号|作业一|
 |:-------------|:-------------|:-----|:-----|
-|4|杨亮|2120151053|
+|4|杨亮|2120151053|https://github.com/LiangYang2836/DataMing/tree/master/homework_1
 |4|王丹(男)|2120151035| https://github.com/bitwangdan/zuoye
 |4|朱鹏飞|2120151075|
 
