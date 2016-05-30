@@ -21,10 +21,10 @@ permalink: /projects/p02/proposal/
 ### 处理步骤
 
 整个文本数据研究分析主要分为如下几个步骤：  
-1. 用数据爬虫从网站上面抓取用户属性、社交关系等数据。  
-2. 文本预处理，对文本数据进行数据清洗。  
-3. 使用因数机（Factorization Machine，FM）构建预测模型。  
-4. 利用（Markov Chain Monte Carlo，MCMC）算法对数据分布进行采样，推理并预测用户的推荐item。  
+  1. 用数据爬虫从网站上面抓取用户属性、社交关系等数据。  
+  2. 文本预处理，对文本数据进行数据清洗。  
+  3. 使用因数机（Factorization Machine，FM）构建预测模型。  
+  4. 利用（Markov Chain Monte Carlo，MCMC）算法对数据分布进行采样，推理并预测用户的推荐item。  
 
 ### 目标
 
