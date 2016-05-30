@@ -126,10 +126,12 @@ permalink: /2016/groups/
 |16|刘琳|2120151012|https://github.com/luoxiaolin521/DM|
 |16|徐程程|2120151049|https://github.com/dbc1040/DMCourse/tree/master/HW_1
 
+> 微博主题抽取
+
 |组号|姓名|学号|作业一|
 |:-------------|:-------------|:-----|:-----|
 |17|王丹|2120151036|https://github.com/DanVane/Seaweed|
-|17|魏林静|2120151045|
+|17|魏林静|2120151045|[作业1Github地址](https://github.com/smallsilent/DM-homework/tree/master/homework1)|
 |17|李克南|2120151004|
 |17|郭一迪|2120150985|
 
