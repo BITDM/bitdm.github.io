@@ -205,6 +205,6 @@ permalink: /2016/groups/
 |Group ID|Name|ID Number|HomeWork 1st|
 |:-------------|:-------------|:-----|:-----|
 |28|HAQ IJAZ UL |2820150066|
-|28|David||
-|28|Zeeshan||
+|28|David M.Chen|2820150157|
+|28|Zeeshan Ahmed|2820150155|
 
