@@ -202,4 +202,9 @@ permalink: /2016/groups/
 |27|John |2820150014|
 |27|ALEX |2820150025|
 
+|Group ID|Name|ID Number|HomeWork 1st|
+|:-------------|:-------------|:-----|:-----|
+|28|HAQ IJAZ UL |2820150066|
+|28|David||
+|28|Zeeshan||
 
