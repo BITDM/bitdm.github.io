@@ -107,7 +107,7 @@ permalink: /2016/groups/
 |13|李艳东|2120151006|https://github.com/zimuxin/algaeDataAnalysis|
 |13|曹文强|2120150977|https://github.com/Atlantic8/bitdm2016/tree/master/exercise1|
 |13|樊荣|2120150982|https://github.com/fanrong1992/DataMining|
-|13|张川|2120151059|
+|13|张川|2120151059|https://github.com/zhang1183/Homework1|
 
 
 |组号|姓名|学号|作业一|
