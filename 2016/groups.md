@@ -31,11 +31,13 @@ permalink: /2016/groups/
 |3|郑清卓|2120151071|https://github.com/akzqz666/zqz
 |3|侯军|2120150992|https://github.com/houjun-data/homework1
 
+>文本分类及主题挖掘
+
 |组号|姓名|学号|作业一|
 |:-------------|:-------------|:-----|:-----|
 |4|杨亮|2120151053|https://github.com/LiangYang2836/DataMing/tree/master/homework_1
 |4|王丹(男)|2120151035| https://github.com/bitwangdan/zuoye
-|4|朱鹏飞|2120151075|
+|4|朱鹏飞|2120151075| https://github.com/Pengfei-Zhu/DataMining/tree/master/homework-1
 
 > Recommending Music Items based on the Yahoo! Music Dataset.
 
