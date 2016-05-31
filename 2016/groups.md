@@ -137,7 +137,7 @@ permalink: /2016/groups/
 |17|王丹|2120151036|https://github.com/DanVane/Seaweed|
 |17|魏林静|2120151045|[作业1Github地址](https://github.com/smallsilent/DM-homework/tree/master/homework1)|
 |17|李克南|2120151004|[作业1Github地址](https://github.com/nandily/DMHomework/tree/master/homework1)
-|17|郭一迪|2120150985|
+|17|郭一迪|2120150985|[作业1Github地址](https://github.com/deymm/data_mining/tree/master/homework1)
 
 |组号|姓名|学号|作业一|
 |:-------------|:-------------|:-----|:-----|
