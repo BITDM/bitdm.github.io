@@ -75,7 +75,7 @@ permalink: /2016/groups/
 |组号|姓名|学号|作业一|
 |:-------------|:-------------|:-----|:-----|
 |9|黄姗|2120150995|https://github.com/CShuangshan/Homework_1
-|9|靳晓乐|2120151000||9|靳晓乐|2120151000|https://github.com/sherlockjin/dm_homework|
+|9|靳晓乐|2120151000|https://github.com/sherlockjin/dm_homework|
 |9|马骁|2120151022|https://github.com/Marshall0304/DataMiningFirstHomework.git
 
 |组号|姓名|学号|作业一|
