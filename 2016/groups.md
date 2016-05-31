@@ -90,7 +90,7 @@ permalink: /2016/groups/
 |组号|姓名|学号|作业一|
 |:-------------|:-------------|:-----|:-----|
 |11|王晶|2120151040|[process data of algae](https://github.com/blizzardwj/DM_algae_R)|
-|11|韩学博|2120150990|
+|11|韩学博|2120150990|[dm_homework_1](https://github.com/bitdatamining/dm_homework_1.git)
 |11|李凯霞|2120151003|https://github.com/iamaimb/datamining/tree/master/work1|
 |11|张林|2120151062|[homework1](https://git.oschina.net/zhlion/DataMining.git)
 
