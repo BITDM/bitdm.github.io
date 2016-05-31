@@ -67,7 +67,7 @@ permalink: /2016/groups/
 |:-------------|:-------------|:-----|:-----|
 |8|高志伟|2120150985|https://github.com/BitrSky/analysis_algae
 |8|王子硕||
-|8|刘云洋||
+|8|刘云洋||https://github.com/myturn0/bitdm-sunny.git
 |8|张露露||https://github.com/TomsonTao/CourseWork.git|
 
 > 股票市场预测研究
