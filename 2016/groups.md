@@ -207,7 +207,7 @@ permalink: /2016/groups/
 |:-------------|:-------------|:-----|:-----|
 |27|Marwan |2820150124|https://github.com/Marwanqudar/bitdm.github.io/blob/42b01d8009fd36040068c798261da94dd6760666/Data%20%20mining%20Homework.docx
 |27|Elfatih|2820150087|
-|27|John |2820150014|
+|27|John |2820150014|https://github.com/pjonii/data-mining
 |27|ALEX |2820150025|
 
 |Group ID|Name|ID Number|HomeWork 1st|
