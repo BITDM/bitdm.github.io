@@ -196,7 +196,7 @@ permalink: /2016/groups/
 
 |组号|姓名|学号|作业一|
 |:-------------|:-------------|:-----|:-----|
-|26|姚明宇|2120151055|
+|26|姚明宇|2120151055|[作业1Github地址](https://github.com/mingmingxi/DM-Seaweed/tree/master/DM_homework)
 |26|于畅泳|2120151056|[作业1Github地址](https://github.com/ChocolateBoyYu/BITDMcourse-task1)
 |26|于文楠|2120151057|
 
