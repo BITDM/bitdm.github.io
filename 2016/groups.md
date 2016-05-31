@@ -19,7 +19,7 @@ permalink: /2016/groups/
 
 |组号|姓名|学号|作业一|
 |:-------------|:-------------|:-----|:-----|
-|2|黄建峰||
+|2|黄建峰|2120150994|https://github.com/hjf579068/first-homework
 |2|宁小东||https://github.com/orangeNya/bitdm_assignment01
 |2|王新灵||https://github.com/wxlDatamining/assignment
 
