@@ -114,7 +114,7 @@ permalink: /2016/groups/
 
 |组号|姓名|学号|作业一|
 |:-------------|:-------------|:-----|:-----|
-|14|王恒怿|2120151038|
+|14|王恒怿|2120151038|[作业1Github地址](https://github.com/wanghybit/DM2016)
 |14|郑越|2120151072|[作业1Github地址](https://github.com/ZhengYue1994/Seaweed/)|
 |14|苏思悦|2120151031|[作业1Github地址](https://github.com/andrea071/Datamining3/)|
 
