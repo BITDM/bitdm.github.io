@@ -218,3 +218,7 @@ permalink: /2016/groups/
 |28|David M.Chen|2820150157|[At pan.baidu.com](http://pan.baidu.com/s/1slnDbeH)
 |28|Zeeshan Ahmed|2820150155|[At pan.baidu.com](http://pan.baidu.com/s/1slnDbeH)
 
+|Group ID|Name|ID Number|HomeWork 1st|
+|:-------------|:-------------|:-----|:-----|
+|29|Kwon Dayeon |2820150089|https://github.com/kwondayeon/KwonDayeon-Homework
+|29|Sujin Lee|2820150081|https://github.com/shouzhen0710/Sujin-HomeWork
