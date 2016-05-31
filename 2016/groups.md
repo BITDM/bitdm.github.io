@@ -125,7 +125,7 @@ permalink: /2016/groups/
 |组号|姓名|学号|作业一|
 |:-------------|:-------------|:-----|:-----|
 |16|吴松泽|2120151048|https://github.com/songzepein/DM-|
-|16|刘琳|2120151012|https://github.com/luoxiaolin521/DM|
+|16|刘琳|2120151012|https://github.com/luoxiaolin521/DM |
 |16|徐程程|2120151049|https://github.com/dbc1040/DMCourse/tree/master/HW_1
 
 > 微博主题抽取
