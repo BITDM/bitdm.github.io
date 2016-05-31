@@ -52,7 +52,7 @@ permalink: /2016/groups/
 
 |组号|姓名|学号|作业一|
 |:-------------|:-------------|:-----|:-----|
-|6|钱钧|2120151028|
+|6|钱钧|2120151028|[作业1网盘地址](https://drive.google.com/folderview?id=0BzyKg0CHDnRDbFNxaWFYRlVJMDQ&usp=sharing)
 
 > 大学排名信息分析
 
