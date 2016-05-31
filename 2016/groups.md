@@ -215,6 +215,6 @@ permalink: /2016/groups/
 |Group ID|Name|ID Number|HomeWork 1st|
 |:-------------|:-------------|:-----|:-----|
 |28|HAQ IJAZ UL |2820150066|https://github.com/ejokhan/Haq-IJAZ-UL-2820150066-
-|28|David M.Chen|2820150157|
-|28|Zeeshan Ahmed|2820150155|
+|28|David M.Chen|2820150157|[At pan.baidu.com](http://pan.baidu.com/s/1slnDbeH)
+|28|Zeeshan Ahmed|2820150155|[At pan.baidu.com](http://pan.baidu.com/s/1slnDbeH)
 
