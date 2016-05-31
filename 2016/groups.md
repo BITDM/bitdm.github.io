@@ -64,7 +64,7 @@ permalink: /2016/groups/
 |8|高志伟||
 |8|王子硕||
 |8|刘云洋||
-|8|张露露||
+|8|张露露||https://github.com/TomsonTao/CourseWork.git|
 
 > 股票市场预测研究
 
