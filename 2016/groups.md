@@ -187,8 +187,8 @@ permalink: /2016/groups/
 
 |组号|姓名|学号|作业一|
 |:-------------|:-------------|:-----|:-----|
-|24|张霖|2120151063|
-|24|杨冰|2120151052| https://github.com/bityangbing/data
+|24|张霖|2120151063| https://github.com/cszhanglin/dm_assign.git |
+|24|杨冰|2120151052| https://github.com/bityangbing/data |
 
 > 亚马逊书籍推荐
 
