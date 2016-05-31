@@ -65,7 +65,7 @@ permalink: /2016/groups/
 
 |组号|姓名|学号|作业一|
 |:-------------|:-------------|:-----|:-----|
-|8|高志伟||
+|8|高志伟|2120150985|https://github.com/BitrSky/analysis_algae
 |8|王子硕||
 |8|刘云洋||
 |8|张露露||https://github.com/TomsonTao/CourseWork.git|
