@@ -153,7 +153,7 @@ permalink: /2016/groups/
 |组号|姓名|学号|作业一|
 |:-------------|:-------------|:-----|:-----|
 |19|郭媛|2120150987|
-|19|周盼|2120151074|
+|19|周盼|2120151074|[作业1地址](https://github.com/Sakura211/DataMining)
 |19|林仁俊 |2120151010|https://github.com/linrenjun/Homework1.git
 |19|赵树阳 |2120151070|[海藻作业Github地址](https://github.com/zsyprich/seaweed)
 
