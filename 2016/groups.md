@@ -102,9 +102,9 @@ permalink: /2016/groups/
 
 |组号|姓名|学号|作业一|
 |:-------------|:-------------|:-----|:-----|
-|13|李艳东|2120151006|
-|13|曹文强|2120150977|
-|13|樊荣|2120150982|
+|13|李艳东|2120151006|https://github.com/zimuxin/algaeDataAnalysis|
+|13|曹文强|2120150977|https://github.com/Atlantic8/bitdm2016/tree/master/exercise1|
+|13|樊荣|2120150982|https://github.com/fanrong1992/DataMining|
 |13|张川|2120151059|
 
 
@@ -136,7 +136,7 @@ permalink: /2016/groups/
 |:-------------|:-------------|:-----|:-----|
 |17|王丹|2120151036|https://github.com/DanVane/Seaweed|
 |17|魏林静|2120151045|[作业1Github地址](https://github.com/smallsilent/DM-homework/tree/master/homework1)|
-|17|李克南|2120151004|
+|17|李克南|2120151004|[作业1Github地址](https://github.com/nandily/DMHomework/tree/master/homework1)
 |17|郭一迪|2120150985|
 
 |组号|姓名|学号|作业一|
