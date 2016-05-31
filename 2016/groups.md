@@ -165,7 +165,7 @@ permalink: /2016/groups/
 
 |组号|姓名|学号|作业一|
 |:-------------|:-------------|:-----|:-----|
-|21|扶聪|2120150983|
+|21|扶聪|2120150983|https://github.com/followindogy/homework
 |21|廖心怡|2120151009|https://github.com/lxy528/dmhomework1.git|
 
 > 基于聚类分析方法破解AES加密算法密钥
