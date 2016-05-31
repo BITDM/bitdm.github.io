@@ -11,7 +11,7 @@ permalink: /2016/groups/
 |组号|姓名|学号|作业一|
 |:-------------|:-------------|:-----|:-----|
 |1|张燕妮|2120151065|[作业1github地址](https://github.com/jennyzhang8800/DataMining/tree/master/%E4%BD%9C%E4%B8%9A%E4%B8%80)
-|1|韩梦乔|2120150989|
+|1|韩梦乔|2120150989|[作业1github地址](https://github.com/michellehanan/BIT_DataMining.git)
 |1|刘畅|2120151011|
 |1|罗佩|2120151019|[作业1网盘地址](http://pan.baidu.com/s/1hs0M9fA)
 
