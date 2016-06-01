@@ -12,7 +12,7 @@ permalink: /2016/groups/
 |:-------------|:-------------|:-----|:-----|
 |1|张燕妮|2120151065|[作业1github地址](https://github.com/jennyzhang8800/DataMining/tree/master/%E4%BD%9C%E4%B8%9A%E4%B8%80)
 |1|韩梦乔|2120150989|[作业1github地址](https://github.com/michellehanan/BIT_DataMining.git)
-|1|刘畅|2120151011|
+|1|刘畅|2120151011|[作业地址](http://pan.baidu.com/s/1pLgV4F5)
 |1|罗佩|2120151019|[作业1网盘地址](http://pan.baidu.com/s/1hs0M9fA)
 
 > 社交网络中的个性化推荐系统
