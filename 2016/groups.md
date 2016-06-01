@@ -86,7 +86,7 @@ permalink: /2016/groups/
 |10|卢兵兵|2120151018|https://github.com/ken2120151018/DM
 |10|赵蒙|2120151069|https://github.com/zhaomeng1228/homework|
 |10|战弈竹|2120141077|
-|10|苏日海|2120131061|
+|10|苏日海|2120131061|https://github.com/surihai/DMhomework.git|
 
 > 社区问答网站的专家发现
 
