@@ -178,7 +178,7 @@ permalink: /2016/groups/
 |组号|姓名|学号|作业一|
 |:-------------|:-------------|:-----|:-----|
 |22|王东树||https://github.com/ghos/hz_Analysis.git|
-|22|谌重喜||
+|22|谌重喜||https://github.com/shenchongxi/algae|
 |22|张宇||https://github.com/Darkmoon123/DM
 
 |组号|姓名|学号|作业一|
