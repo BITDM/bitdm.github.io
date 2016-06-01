@@ -148,7 +148,7 @@ permalink: /2016/groups/
 
 |组号|姓名|学号|作业一|
 |:-------------|:-------------|:-----|:-----|
-|18|李超|2120151002|
+|18|李超|2120151002|https://github.com/Bailing1992/DataMin
 |18|钟行福|2120151073|https://github.com/UPC-FUZI/FirstHomeWork
 |18|覃黎飞|2120151032|https://github.com/qinlifei/homework
 
