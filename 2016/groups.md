@@ -45,7 +45,7 @@ permalink: /2016/groups/
 |:-------------|:-------------|:-----|:-----|
 |5|李杨|2120151007| https://github.com/absurdliyang/DataMiningCourseProject
 |5|魏思杰|2120151046| https://github.com/w443565421/data_mining_homework_1/
-|5|李苏畅|3120150419|
+|5|李苏畅|3120150419|https://github.com/fdfdfd123/homework1
 |5|罗伟|2120151020|https://github.com/WeiLuo-GitHub/bdHomework/tree/master/homework1
 
 > N-gram based input text predictor
@@ -79,9 +79,11 @@ permalink: /2016/groups/
 |9|靳晓乐|2120151000|https://github.com/sherlockjin/dm_homework|
 |9|马骁|2120151022|https://github.com/Marshall0304/DataMiningFirstHomework.git
 
+> 微博水军识别
+
 |组号|姓名|学号|作业一|
 |:-------------|:-------------|:-----|:-----|
-|10|卢兵兵|2120151018|
+|10|卢兵兵|2120151018|https://github.com/ken2120151018/DM
 |10|赵蒙|2120151069|https://github.com/zhaomeng1228/homework|
 |10|战弈竹|2120141077|
 |10|苏日海|2120131061|
@@ -168,7 +170,7 @@ permalink: /2016/groups/
 
 |组号|姓名|学号|作业一|
 |:-------------|:-------------|:-----|:-----|
-|21|扶聪|2120150983|https://github.com/followindogy/homework
+|21|扶聪|2120150983|https://github.com/followindogy/homework.git
 |21|廖心怡|2120151009|https://github.com/lxy528/dmhomework1.git|
 
 > 基于聚类分析方法破解AES加密算法密钥
@@ -195,7 +197,7 @@ permalink: /2016/groups/
 
 |组号|姓名|学号|作业一|
 |:-------------|:-------------|:-----|:-----|
-|25|胡健|2120150993|
+|25|胡健|2120150993|https://github.com/hjbigshot/DataMiningClass
 |25|季鹏|2120150998|[蛋疼的上传文件,改用网盘了](http://pan.baidu.com/s/1i5jP8Br)|
 |25|张快|2120151061|https://github.com/zk12001/-
 
