@@ -44,7 +44,7 @@ permalink: /2016/groups/
 |组号|姓名|学号|作业一|
 |:-------------|:-------------|:-----|:-----|
 |5|李杨|2120151007| https://github.com/absurdliyang/DataMiningCourseProject
-|5|魏思杰|2120151046|
+|5|魏思杰|2120151046| https://github.com/w443565421/data_mining_homework_1/
 |5|李苏畅|3120150419|
 |5|罗伟|2120151020|
 
