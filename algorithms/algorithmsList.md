@@ -22,32 +22,78 @@ We referred to this [blog](http://blog.csdn.net/leo2007608/article/details/93478
 + CART-Classification and Regression Trees.
 
 ## More algorithms covered in *Data Mining Concepts and Techniques*(Jiawei Han, Micheline Kamber, Jian Pei)
-+ Sequential covering algorithm
-+ Genetic algorithm. (曹文强 2120150977，李艳东 2120151006)
-+ Discrete wavelet transform
-+ Discrete fourier transform
-+ Neural network backpropagation algorithm
-+ Attribute-Oriented Induction
-+ BUC: Computing Iceberg Cubes from the Apex Cuboid Downward
-+ Star-Cubing algorithm
+
+### Association Rule Mining
+
+- Apriori
+- FP-growth
+- FPClose
+- ECLAT
+- CLOSET
+- CHARM: An efﬁcient algorithm for closed itemset mining
+- CARPENTER
+- MaxMiner
+- MAFIA
+- TDClose
+
+### Classification
+
+- Decision Tree
+  - ID3,ID4/ID5
+  - C4.5
+  - CART
+  - BOAT, Bootstrapped Optimistic Algorithm for Tree construction
+  - RainForest
+- Bayes Classification
+  - Naive Bayes
+- Rule-based Classification
+  - RIPPER
+  - FOIL
+- Ensemble Methods
+  - Bagging
+  - Adaboost(崔绿叶)
+  - Random Forest
+- Bayesian Belief Networks
+- Neural network backpropagation algorithm
+- Support Vector Machines(吴松泽 2120151048)
+- Associative Classification
+  - CBA: Classification Based on Associations
+  - CMAR: Classification based on Multiple Association Rules
+  - CPAR: Classification based on Predictive Association Rules
+  - DDPMine
+- Lazy Leaner
+  - kNN:k-Nearest Neighbor(张燕妮2120151065，韩梦乔2120150989)
+  - CBR: Cased-Based Reasoning
+- Genetic algorithm. (曹文强 2120150977，李艳东 2120151006)
+- Rough Set
+- Fuzzy Set
+- Multiclass Classfication
+- Semi-Supervised Classification
+  - self-training
+  - co-training
+- Active learning
+- Transfer learning
+  - TrAdaBoost
+
+### Clustering
+
++ farthest-neighbor clustering algorithm
++ Chameleon: Multiphase Hierarchical Clustering Using Dynamic Modeling 
++ BIRCH
++ DBSCAN
++ OPTICS algorithm
++ DENCLUE algorithm
++ k-means++ algorithm
++ CLIQUE algorithm
++ SCAN (Structural Clustering Algorithm for Networks)
+
+### 待分类
+
 + Frag-Shells algorithm for shell fragment computing
-+ FP-growth algorithm
-+ FPClose algorithm
-+ CARPENTER algorithm
 + MAFIA algorithm
 + CHAID algorithm
-+ BOAT (Bootstrapped Optimistic Algorithm for Tree construction) 
-+ Perception-based classiﬁcation
 + SPRINT algorithm
-+ CART algorithm
 + SMOTE algorithm
-+ ID3 algorithm
-+ CBA(Classiﬁcation Based on Associations)
-+ CMAR (Classiﬁcation based on Multiple Association Rules)
-+ FOIL algorithm
-+ DDPMine algorithm
-+ TrAdaBoost (Transfer AdaBoost)
-+ Active learning
 + NDPMine algorithm
 + k-medoids algorithm 
 + PartitioningAroundMedoids(PAM)algorithm 
@@ -56,24 +102,13 @@ We referred to this [blog](http://blog.csdn.net/leo2007608/article/details/93478
 + CLARANS (Clustering Large Applications based upon RANdomized Search)
 + Single-linkage algorithm
 + minimal spanning tree algorithm
-+ farthest-neighborclusteringalgorithm
-+ Chameleon: Multiphase Hierarchical Clustering Using Dynamic Modeling 
-+ BIRCH
-+ DBSCAN
-+ OPTICS algorithm
-+ DENCLUE algorithm
-+ k-means++ algorithm
 + PAM algorithm
 + CLARANS algorithm
-+ DENCLUE algorithm
-+ CLIQUE algorithm
 + δ-Cluster Algorithm 
 + MaPle algorithm
 + Ng-Jordan-Weiss algorithm
-+ SCAN (Structural Clustering Algorithm for Networks)
 + COP-k-meansalgorithm
 + CVQE (Constrained Vector Quantization Error)
-+ CLOSET(Pei,Han,andMao[PHM00])
 + fuzzy c-means algorithm
 + PROCLUS algorithm
 + FindCBLOF algorithm
@@ -84,5 +119,3 @@ We referred to this [blog](http://blog.csdn.net/leo2007608/article/details/93478
 + DualMiner
 + The CN2 induction algorithm
 + TFP: An efﬁcient algorithm for mining top-k frequent closed itemsets
-+ CHARM: An efﬁcient algorithm for closed itemset mining
-+ BOAT, Bootstrapped Optimistic Algorithm for Tree construction 
