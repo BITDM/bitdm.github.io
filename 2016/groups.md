@@ -164,7 +164,7 @@ permalink: /2016/groups/
 |:-------------|:-------------|:-----|:-----|
 |20|唐育洋|2120151034|https://github.com/SparkFour/datamining_homework
 |20|付升宇|2120150984|https://github.com/fsy351/bitdm-homework
-|20|敖权|2120150974|
+|20|敖权|2120150974|https://github.com/aoquan/dataMining
 
 |组号|姓名|学号|作业一|
 |:-------------|:-------------|:-----|:-----|
