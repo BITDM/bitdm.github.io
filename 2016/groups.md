@@ -185,7 +185,7 @@ permalink: /2016/groups/
 |组号|姓名|学号|作业一|
 |:-------------|:-------------|:-----|:-----|
 |23|严西敏|2120151051|https://github.com/yAnXImIN/DMHomeWork1
-|23|欧阳童|2120151025|
+|23|欧阳童|2120151025|https://github.com/tongtong714/DataMining1
 
 > 邮件自动分类
 
