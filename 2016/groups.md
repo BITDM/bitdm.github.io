@@ -151,7 +151,7 @@ permalink: /2016/groups/
 |18|李超|2120151002|https://github.com/Bailing1992/DataMin
 |18|钟行福|2120151073|https://github.com/UPC-FUZI/FirstHomeWork
 |18|覃黎飞|2120151032|https://github.com/qinlifei/homework
-|18|王旗林|2120151041|
+|18|王旗林|2120151041|https://github.com/qilinbit/homework1
 
 > 数据挖掘----电影推荐系统
 
