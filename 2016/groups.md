@@ -203,6 +203,8 @@ permalink: /2016/groups/
 |25|季鹏|2120150998|[蛋疼的上传文件,改用网盘了](http://pan.baidu.com/s/1i5jP8Br)|
 |25|张快|2120151061|https://github.com/zk12001/-
 
+> 股票数据分析与预测
+
 |组号|姓名|学号|作业一|
 |:-------------|:-------------|:-----|:-----|
 |26|姚明宇|2120151055|[作业1Github地址](https://github.com/mingmingxi/DM-Seaweed/tree/master/DM_homework)
