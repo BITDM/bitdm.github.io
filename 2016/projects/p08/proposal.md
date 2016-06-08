@@ -13,7 +13,8 @@ permalink: /2016/projects/p08/proposal/
 - 刘云洋
 - 张露露
 
-题目：基于用户对电影的历史评分数据解决电影评分预测问题。
+*翻译成中文*
+
 数据来源：netflix prize 数据集
 课题内容：
 1 Predict the rating a user will give on a movie from the movies that user has rated in the past, as well as the ratings similar users have given similar movies。
