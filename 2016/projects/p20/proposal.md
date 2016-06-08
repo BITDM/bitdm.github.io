@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-permalink: /projects/p20/proposal/
+permalink: /2016/projects/p20/proposal/
 ---
 
 ## 阿里音乐流行趋势预测

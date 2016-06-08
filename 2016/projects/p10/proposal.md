@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-permalink: /projects/p10/proposal/
+permalink: /2016/projects/p10/proposal/
 ---
 
 ## 微博水军识别

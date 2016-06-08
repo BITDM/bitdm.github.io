@@ -1,11 +1,13 @@
 ---
 layout: page
 mathjax: true
-permalink: /projects/p22/proposal/
+permalink: /2016/projects/p25/proposal/
 ---
 
-## 资金流入流出预测
+## 亚马逊书籍推荐
 
 ### 成员
 
-- 宋肖玉
+- 胡健
+- 季鹏
+- 张快

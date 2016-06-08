@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-permalink: /projects/p11/proposal/
+permalink: /2016/projects/p11/proposal/
 ---
 
 ## 社区问答网站的专家发现

@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-permalink: /projects/p07/proposal/
+permalink: /2016/projects/p07/proposal/
 ---
 
 # 大学排名信息分析

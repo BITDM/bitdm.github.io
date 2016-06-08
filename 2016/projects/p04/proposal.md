@@ -1,15 +1,13 @@
 ---
 layout: page
 mathjax: true
-permalink: /projects/p04/proposal/
+permalink: /2016/projects/p04/proposal/
 ---
 
-## 电影评分和推荐
-
- > 题目确定时间： 2015.6.2
+## 文本分类及主题挖掘
 
 ### 成员
 
-- 关键 2120141008
-- 叶敏 2120141074
-- 杨亚菲 2120141072
+- 杨亮
+- 王丹(男)
+- 朱鹏飞

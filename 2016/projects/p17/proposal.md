@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-permalink: /projects/p17/proposal/
+permalink: /2016/projects/p17/proposal/
 ---
 
 ## 微博主题提取

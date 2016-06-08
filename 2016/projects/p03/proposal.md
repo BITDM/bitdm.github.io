@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-permalink: /projects/p03/proposal/
+permalink: /2016/projects/p03/proposal/
 ---
 
 ## 天池大数据比赛-阿里音乐流行趋势预测

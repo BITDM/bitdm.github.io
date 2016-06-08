@@ -1,5 +1,16 @@
+---
+layout: page
+mathjax: true
+permalink: /2016/projects/p28/proposal/
+---
 
-Sentimental Analysis on Twitter Data, Using Data Mining and Text Mining Techniques( Using R software)
+## Sentimental Analysis on Twitter Data, Using Data Mining and Text Mining Techniques( Using R software)
+
+### Members
+
+- HAQ IJAZ UL
+- David M.Chen
+- Zeeshan Ahmed
 
 Twitter is an amazing micro blogging tool and an extraordinary communication medium. In addition, twitter can also be an amazing open mine for text and social web analyses. Among the different softwares that can be used to analyze twitter, R offers a wide variety of options to do lots of interesting and fun things. In this project I have used RStudio as its pretty much easier working with scripts as compared to R.
 

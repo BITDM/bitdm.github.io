@@ -1,10 +1,10 @@
 ---
 layout: page
 mathjax: true
-permalink: /projects/p09/proposal/
+permalink: /2016/projects/p09/proposal/
 ---
 
-## 题目：股票市场预测研究
+## 股票市场预测研究
 
 
 ### 成员

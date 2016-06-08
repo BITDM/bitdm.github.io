@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-permalink: /projects/p16/proposal/
+permalink: /2016/projects/p16/proposal/
 ---
 
 ## 社交网络事件事态挖掘

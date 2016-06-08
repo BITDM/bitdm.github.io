@@ -1,17 +1,14 @@
 ---
 layout: page
 mathjax: true
-permalink: /projects/p18/proposal/
+permalink: /2016/projects/p18/proposal/
 ---
 
-## 基于贝叶斯算法及KNN算法的文本分类
+## 题目未定
 
 ### 成员
 
-- 郭坦(2120141011)
-- 涂强(2120141051)
-- 李旭东(2120141021）
-
-### 数据集  
-
-文本集是Newsgroups-18828
+- 李超
+- 钟行福
+- 覃黎飞
+- 王旗林

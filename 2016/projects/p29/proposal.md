@@ -1,4 +1,14 @@
-Sentimental Analysis on Twitter Data, Using Data Mining and Text Mining Techniques( Using R software)
+---
+layout: page
+mathjax: true
+permalink: /2016/projects/p29/proposal/
+---
+
+## 题目未定
+
+### 成员
+
+
 
 Twitter is an amazing micro blogging tool and an extraordinary communication medium. In addition, twitter can also be an amazing open mine for text and social web analyses. Among the different softwares that can be used to analyze twitter, R offers a wide variety of options to do lots of interesting and fun things. In this project I have used RStudio as its pretty much easier working with scripts as compared to R.
 
@@ -10,4 +20,4 @@ The purpose of Text Mining is to process unstructured (textual) information, ext
 
 Applications of text Mining are analyzing open-ended survey responses, automatic processing of messages, emails, etc., analyzing warranty or insurance claims, diagnostic interviews, etc., investigating competitors by crawling their web sites.
 
-In this project “Twitter Analysis using R” , we will perform the Sentiment Analysis and Text Mining techniques on the tweets of some famous celebrity. This project we will do in RStudio which will uses the libraries of R programming languages
+In this project “Twitter Analysis using R” , we will perform the Sentiment Analysis and Text Mining techniques on  the tweets of some famous celebrity. This project we will do in RStudio which will uses the libraries of R programming languages.
