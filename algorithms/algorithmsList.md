@@ -78,7 +78,7 @@ We referred to this [blog](http://blog.csdn.net/leo2007608/article/details/93478
 ### Clustering
 
 + farthest-neighbor clustering algorithm
-+ Chameleon: Multiphase Hierarchical Clustering Using Dynamic Modeling (Hierarchical Clustering 黄瓒)
++ Chameleon: Multiphase Hierarchical Clustering Using Dynamic Modeling (Hierarchical Clustering 黄瓒 2120150996)
 + BIRCH
 + DBSCAN
 + OPTICS algorithm
