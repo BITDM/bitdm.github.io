@@ -4,7 +4,7 @@ mathjax: true
 permalink: /2016/projects/p21/proposal/
 ---
 
-## 题目：代码片段分析与标签预测
+## 代码片段分析与标签预测
 
 ### 成员
 
