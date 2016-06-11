@@ -61,7 +61,7 @@ permalink: /2016/projects/p02/midterm/
 
 ### 模型探索
 
-我们尝试对歌手的播放量进行线性回归预测
+我们尝试对歌手的播放量进行趋势预测
 
 ![回归预测](./image/predict1.jpg)
 
