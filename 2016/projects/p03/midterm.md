@@ -1,10 +1,10 @@
 ---
 layout: page
 mathjax: true
-permalink: /2016/projects/p02/midterm/
+permalink: /2016/projects/p03/midterm/
 ---
 
-## 社交网络中的个性化推荐系统-阶段报告
+## 阿里音乐流行趋势预测-阶段报告
 
 ### 当前成果
 
@@ -55,68 +55,17 @@ permalink: /2016/projects/p02/midterm/
 
 首先，我们将100个需要进行预测的歌手的历史播放量数据绘制曲线图，观察每个歌手的历史趋势和特征（图中绿色的圆点代表当天歌手发行了新歌）。
 
-![歌曲播放量曲线](./image/daily_by_artist.jpg)
-
-从这个大图中可以看到新歌发布会带来大量的播放量，同时每个歌手的播放量相差很大。
+<div class="fig figcenter fighighlight">
+    <a href="image/daily_by_artist.jpg"><img src="image/daily_by_artist.jpg" ></a>
+    <div class="figcaption">歌曲播放量曲线,从这个大图中可以看到新歌发布会带来大量的播放量，同时每个歌手的播放量相差很大。</div>
+</div>
 
 ### 模型探索
 
 我们尝试对歌手的播放量进行趋势预测
 
-![回归预测](./image/predict1.jpg)
-
-![回归预测](./image/predict2.jpg)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<div class="fig figcenter fighighlight">
+    <a href="image/predict1.jpg"><img src="image/predict1.jpg" width="40%"></a>
+    <a href="image/predict2.jpg"><img src="image/predict2.jpg" width="48%"></a>
+    <div class="figcaption"></div>
+</div>
