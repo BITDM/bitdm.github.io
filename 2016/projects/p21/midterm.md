@@ -1,10 +1,6 @@
 
 
----
-layout: page
-mathjax: true
-permalink: /2016/projects/p21/proposal/
----
+
 
 ## 代码片段分析与标签预测-中期报告
 
@@ -21,22 +17,33 @@ permalink: /2016/projects/p21/proposal/
 
  特征    gist@GitHub	code@CSDN
 
- 标题	很少	没有
+ 标题	   很少	         没有
 
-描述	很少	很多
+描述    	很少	         很多
 
-标签	没有	很多
+标签	    没有	         很多
 
 描述语言	英语和其他语言	中文
 
-来源	用户提交的	网站整合的
+来源	 用户提交的	网站整合的
 
 代码片段数量	65k	145k
 
 用户数量	35k	36k
 
-![](mahua-logo.jpg)
 
-hahah
+![代码大小分布](2.png)
 
-![mahua](mahua-logo.jpg)
+代码大小分布
+
+![程序员提交的代码片段数目大小](3.png)
+
+程序员提交的代码片段数目大小
+
+![不同语言代码分布情况](4.png)
+
+不同语言代码分布情况
+
+![代码片段描述长度](5.png)
+
+代码片段描述长度
