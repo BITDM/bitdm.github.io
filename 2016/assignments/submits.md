@@ -95,7 +95,7 @@ permalink: /2016/assignments/submit/
 |组号|姓名|学号|作业一|
 |:-------------|:-------------|:-----|:-----|
 |15|王亚军|2120150937|
-|15|范勇|2520150264|
+|15|范勇|2520150264|https://github.com/Victorfy/DMHW1|
 |15|邢弈鹏|2520150263|https://github.com/xyp8899/123|
 
 |组号|姓名|学号|作业一|
@@ -129,7 +129,7 @@ permalink: /2016/assignments/submit/
 |:-------------|:-------------|:-----|:-----|
 |20|唐育洋|2120151034|https://github.com/SparkFour/datamining_homework
 |20|付升宇|2120150984|https://github.com/fsy351/bitdm-homework
-|20|敖权|2120150974|
+|20|敖权|2120150974|https://github.com/aoquan/dataMining
 
 |组号|姓名|学号|作业一|
 |:-------------|:-------------|:-----|:-----|
