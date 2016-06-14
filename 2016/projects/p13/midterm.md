@@ -6,7 +6,7 @@
 
 | user_id   |   song_id   |  gmt_create |    action_type   |    Ds   |
 |----------|:-------------:|------:|
-|xxxxxxxxxx|sbgcvdkjdhhjjkjkh|1426406400|1|20150315
+|xxxxxxxxxx|sbgcvdkjdhhjjkjkh|1426406400|1|20150315|
 
 
 - 歌曲艺人表
