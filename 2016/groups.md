@@ -201,7 +201,7 @@ permalink: /2016/groups/
 |组号|姓名|学号|作业一|
 |:-------------|:-------------|:-----|:-----|
 |25|胡健|2120150993|https://github.com/hjbigshot/DataMiningClass
-|25|季鹏|2120150998|[蛋疼的上传文件,改用网盘了](http://pan.baidu.com/s/1i5jP8Br)|
+|25|季鹏|2120150998|[蛋疼的上传文件,改用网盘了](http://pan.baidu.com/s/1kVEou4B)|
 |25|张快|2120151061|https://github.com/zk12001/-
 
 > 股票数据分析与预测
