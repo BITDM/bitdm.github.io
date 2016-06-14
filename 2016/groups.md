@@ -220,6 +220,7 @@ permalink: /2016/groups/
 |27|John |2820150014|https://github.com/pjonii/data-mining
 |27|ALEX |2820150025|
 
+> Applying Sentimental Analysis on movie reviews using Support Vector Machine
 |Group ID|Name|ID Number|HomeWork 1st|
 |:-------------|:-------------|:-----|:-----|
 |28|HAQ IJAZ UL |2820150066|https://github.com/ejokhan/Haq-IJAZ-UL-2820150066-
