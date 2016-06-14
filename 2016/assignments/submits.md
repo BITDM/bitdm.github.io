@@ -94,7 +94,7 @@ permalink: /2016/assignments/submit/
 
 |组号|姓名|学号|作业一|
 |:-------------|:-------------|:-----|:-----|
-|15|王亚军|2120150937|
+|15|王亚军|2120150937|https://github.com/wangyajunxxy/bitdm.github.io
 |15|范勇|2520150264|https://github.com/Victorfy/DMHW1|
 |15|邢弈鹏|2520150263|https://github.com/xyp8899/123|
 
