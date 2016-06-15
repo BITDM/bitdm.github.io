@@ -1,3 +1,9 @@
+---
+layout: page
+mathjax: true
+permalink: /2016/projects/p20/midterm/
+---
+
 #进度报告
 
 ###成员：
