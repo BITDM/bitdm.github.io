@@ -63,7 +63,7 @@ permalink: /2016/assignments/submit/
 |:-------------|:-------------|:-----|:-----|
 |10|卢兵兵|2120151018|https://github.com/ken2120151018/DM
 |10|赵蒙|2120151069|https://github.com/zhaomeng1228/homework|
-|10|战弈竹|2120141077|[link](https://github.com/YizhuZhan/DM-courses-2016-assignment)|
+|10|战弈竹|2120141077|[https://github.com/YizhuZhan/DM-courses-2016-assignment](https://github.com/YizhuZhan/DM-courses-2016-assignment)|
 |10|苏日海|2120131061|https://github.com/surihai/DMhomework.git|
 
 |组号|姓名|学号|作业一|
