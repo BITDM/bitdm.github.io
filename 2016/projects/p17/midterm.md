@@ -37,12 +37,14 @@ permalink: /2016/projects/p17/midterm/
     <div class="figcaption">只提取出用户名和微博内容。</div>
 </div>
 
+
 数据预处理后
 
 <div class="fig figcenter fighighlight">
     <a href="image/daily_by_artist.jpg"><img src="image/daily_by_artist.jpg" ></a>
     <div class="figcaption">包括分词、去停用词。</div>
 </div>
+
 
 ### LDA部分实验结果展示
 
