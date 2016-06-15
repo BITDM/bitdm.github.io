@@ -33,7 +33,7 @@ permalink: /2016/projects/p17/midterm/
 数据清理后
 
 <div class="fig figcenter fighighlight">
-    <a href="image/daily_by_artist.jpg"><img src="image/daily_by_artist.jpg" ></a>
+    <a href="image/srcpicture.jpg"><img src="image/srcpicture.jpg" ></a>
     <div class="figcaption">只提取出用户名和微博内容。</div>
 </div>
 
@@ -41,7 +41,7 @@ permalink: /2016/projects/p17/midterm/
 数据预处理后
 
 <div class="fig figcenter fighighlight">
-    <a href="image/daily_by_artist.jpg"><img src="image/daily_by_artist.jpg" ></a>
+    <a href="image/prepicture.jpg"><img src="image/prepicture.jpg" ></a>
     <div class="figcaption">包括分词、去停用词。</div>
 </div>
 
@@ -49,6 +49,6 @@ permalink: /2016/projects/p17/midterm/
 ### LDA部分实验结果展示
 
 <div class="fig figcenter fighighlight">
-    <a href="image/daily_by_artist.jpg"><img src="image/daily_by_artist.jpg" ></a>
+    <a href="image/lastpic.jpg"><img src="image/lastpic.jpg" ></a>
     <div class="figcaption">还是有一部分噪音，和短文本的影响。</div>
 </div>
