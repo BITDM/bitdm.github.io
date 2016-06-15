@@ -75,7 +75,7 @@ permalink: /2016/assignments/submit/
 
 |组号|姓名|学号|作业一|
 |:-------------|:-------------|:-----|:-----|
-|12|崔绿叶|2120150981|
+|12|崔绿叶|2120150981|[作业1地址](https://github.com/Yezi18/hello)
 |12|贺辉|2120150991|[作业1地址](https://github.com/HakaseH/Seaweed)
 |12|陈帅|2120150979|[作业1地址](https://github.com/unsky/seaweed)
 
