@@ -6,17 +6,18 @@ permalink: /2016/projects/p20/midterm/
 
 ## 进度报告
 
-### 成员：
+### 成员
 
 * 唐育洋
 * 敖权
 * 付升宇
 
-###m目前进展
+### 目前进展
 
 对下载的数据进行处理，可视化分析数据，选择一个模型预测结果
 
 ### 数据解释
+
 本次实验数据涉及到两个表，分别代表着歌曲与艺人的关系数据和用户操作歌曲的行为数据。
 
 歌曲数据表如下：
@@ -57,27 +58,32 @@ Ds|String|记录收集日（分区）
 
 将上述得到的文件，利用python的matplotlib库进行可视化。例如如下三个例子的可视化：
 
-![exp_1](https://github.com/SparkFour/datamining_homework/blob/master/homework_project/original/b15e8846dc61824c1242a6b36796117b.jpg?raw=true)
-![exp_2](https://github.com/SparkFour/datamining_homework/blob/master/homework_project/original/b7522cc91cf57ada15de2298bfd6a3ee.jpg?raw=true)
-![exp_3](https://github.com/SparkFour/datamining_homework/blob/master/homework_project/original/b79593426f5360c38beacd2a940b5f22.jpg?raw=true)
-
+<div class="fig figcenter fighighlight">
+    <a href="https://github.com/SparkFour/datamining_homework/blob/master/homework_project/original/b15e8846dc61824c1242a6b36796117b.jpg?raw=true"><img src="https://github.com/SparkFour/datamining_homework/blob/master/homework_project/original/b15e8846dc61824c1242a6b36796117b.jpg?raw=true" width="30%"></a>
+    <a href="https://github.com/SparkFour/datamining_homework/blob/master/homework_project/original/b7522cc91cf57ada15de2298bfd6a3ee.jpg?raw=true"><img src="https://github.com/SparkFour/datamining_homework/blob/master/homework_project/original/b7522cc91cf57ada15de2298bfd6a3ee.jpg?raw=true" width="30%"></a>
+    <a href="https://github.com/SparkFour/datamining_homework/blob/master/homework_project/original/b79593426f5360c38beacd2a940b5f22.jpg?raw=true"><img src="https://github.com/SparkFour/datamining_homework/blob/master/homework_project/original/b79593426f5360c38beacd2a940b5f22.jpg?raw=true" width="30%"></a>
+</div>
 
 ### 预测
 
 根据这个场景，我们首先想到的是时间序列模型，因此我们查阅了相关资料，了解到时间序列模型预测常用的方法包括：AR、MA、ARIMA、STL分解等方法。这里，我们采用R语言里的STL分解进行预测分析。STL分解算法将时间序列分解为三个分量，分别为：趋势项、季节项、残余项。在应用STL分解算法之前，需要对序列预处理得到平稳序列，在这里，我们可以简单理解为序列的均值没有系统的变化（无趋势）、方差没有系统变化，消除了周期性变化。通过对序列做差分操作可以得到平稳序列。
 
-例如，这张图就是不平稳的时间序列
-![non_stable](https://github.com/SparkFour/datamining_homework/blob/master/homework_project/timeseries.png?raw=true)
+例如，
 
-对上面的序列做一阶差分后，得到如下的序列，它就可以认为是平稳序列
-![stable](https://github.com/SparkFour/datamining_homework/blob/master/homework_project/timeseries_diff.png?raw=true)
+<div class="fig figcenter fighighlight">
+    <a href="https://github.com/SparkFour/datamining_homework/blob/master/homework_project/timeseries.png?raw=true"><img src="https://github.com/SparkFour/datamining_homework/blob/master/homework_project/timeseries.png?raw=true" width="40%"></a>
+    <a href="https://github.com/SparkFour/datamining_homework/blob/master/homework_project/timeseries_diff.png?raw=true"><img src="https://github.com/SparkFour/datamining_homework/blob/master/homework_project/timeseries_diff.png?raw=true" width="40%"></a>
+    <div class="figcaption">左图是不平稳的时间序列; 对上面的序列做一阶差分后，得到如下的序列，它就可以认为是平稳序列</div>
+</div>
 
 
 是上面三个例子，我们得到的预测为：
 
-![exp_1_predict](https://github.com/SparkFour/datamining_homework/blob/master/homework_project/predict_stl/b15e8846dc61824c1242a6b36796117b.jpg?raw=true)
-![exp_2_predict](https://github.com/SparkFour/datamining_homework/blob/master/homework_project/predict_stl/b7522cc91cf57ada15de2298bfd6a3ee.jpg?raw=true)
-![exp_3_predict](https://github.com/SparkFour/datamining_homework/blob/master/homework_project/predict_stl/b79593426f5360c38beacd2a940b5f22.jpg?raw=true)
+<div class="fig figcenter fighighlight">
+    <a href="https://github.com/SparkFour/datamining_homework/blob/master/homework_project/predict_stl/b15e8846dc61824c1242a6b36796117b.jpg?raw=true"><img src="https://github.com/SparkFour/datamining_homework/blob/master/homework_project/predict_stl/b15e8846dc61824c1242a6b36796117b.jpg?raw=true" width="30%"></a>
+    <a href="https://github.com/SparkFour/datamining_homework/blob/master/homework_project/predict_stl/b7522cc91cf57ada15de2298bfd6a3ee.jpg?raw=true"><img src="https://github.com/SparkFour/datamining_homework/blob/master/homework_project/predict_stl/b7522cc91cf57ada15de2298bfd6a3ee.jpg?raw=true" width="30%"></a>
+    <a href="https://github.com/SparkFour/datamining_homework/blob/master/homework_project/predict_stl/b79593426f5360c38beacd2a940b5f22.jpg?raw=true"><img src="https://github.com/SparkFour/datamining_homework/blob/master/homework_project/predict_stl/b79593426f5360c38beacd2a940b5f22.jpg?raw=true" width="30%"></a>
+</div>
 
 ### 下一步工作内容
 

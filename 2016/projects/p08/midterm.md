@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-permalink: /2016/projects/p08/proposal/
+permalink: /2016/projects/p08/midterm/
 ---
 
 ## 基于用户对电影的历史评分数据解决电影评分预测问题
@@ -13,20 +13,22 @@ permalink: /2016/projects/p08/proposal/
 - 刘云洋
 - 张露露
 
-中期总结：
-Item based collective filtering
+### Item based collective filtering
+
 总结：物以类聚
 原因：item的增长速度远小于user的增长速度
 方法：离线计算item的相似度矩阵供线上使用
 缺点：由于基于item的相似性，故推荐的item相似，缺乏多样性
 
-针对课题的解决方法：
+针对课题的解决方法
+
 Item <＝> movie
 相似性度量的特征： 用户群体
 规则：观看的用户群体重合度越高，电影相似度越高
 评分：将相同用户对另一个电影的评分作为相似电影的评分
 
-user based collective filtering
+### user based collective filtering
+
 总结：人以群分，找和用户有相同品味的其他用户
 适用范围：item更新频繁的应用
 方法：通过相似用户喜欢的item推荐给该用户
@@ -36,12 +38,14 @@ user based collective filtering
 相似性度量的特征： 
 1 看过的电影
 2 历史评分
+
 规则：历史观看电影重合度越高，用户越相似
             对同一电影评分越相近，用户越相似
 	      历史评分平均值越相近，用户越相似
 评分：对于某个用户，要对A电影评分，将A电影的评分用户    中与A相似度达到一定程度的用户的平均分作为这个电影对A的评分
 
-代码已上传到github上：
+### 代码
+
 网址为：https://github.com/BitrSky/MLProject
 
 

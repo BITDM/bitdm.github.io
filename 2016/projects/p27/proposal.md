@@ -14,15 +14,18 @@ permalink: /2016/projects/p27/proposal/
 - ALEX
 
 ### Main idea
+
 Basically, the project will rely on retrieving the data from specific resources or dataset and implement some tasks to get the accurate results of the specified dataset to create the required queries which will help researchers in different domains such as Biological domain to get related scientific papers easier and finding the related scientific papers in a fast way. 
+
 Relational retrieval means obtaining data from specific resources and this data is related with the data in the other sources to get the common model of that data.
-Dataset
+
+### Dataset
+
 The data in our project, is a dataset which is in the format of “ .FLY  “ this dataset a biological literature graph which is an integrated database for Drosophila and Anopheles genomics, and contains about 127K papers tagged with genes and proteins.
 
 In the beginning we will start by studying and analyzing the dataset to build the graph which will enable us to understand the main relations between the different entities in the schema .
 
 In fact, scientific literature for example “.FLY”  naturally includes substantial metadata such as author names, citations, and publication venues, as well as derived metadata (such as gene and protein names, in the biomedical literature). The way to represent the scientific literature is as a labeled directed graph, with typed nodes representing documents, terms, and metadata, and labeled edges representing the relationships between them (e.g., “authorOf”, “datePublished”, etc).
-
 
 ### Building Graph
 
