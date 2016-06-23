@@ -50,83 +50,86 @@ MACD 、	WMS、   RSI、   OBV、    M30、    M10、   K指标、     D指标�
 - 性能评价选用MSE以及准确率；
 - 指定训练集为70%，验证集和测试集均为15%
 - 由以上配置，得到神经网络如下：
-- ![](https://github.com/CShuangshan/NO.9/blob/master/img/1.png)
+-  ![图片](https://github.com/CShuangshan/NO.9/blob/master/img/1.png)
 - 如图所示是输入神经元个数为5，隐含层个数为10时的神经网络。
 
 #### 2.2.2 实验结果
 
 - A.
-  - 1、输入指标：
+-  1、输入指标：
       MACD   WMS   RSI   OBV   收盘价    M30    M10   K指标     D指标     DIF     DEA
-  - 2、输出： 第二天收盘价
-  - 3、隐含层个数：10
-  - 4、拟合结果：![](https://github.com/CShuangshan/NO.9/blob/master/img/2.png)
-    - 0.01以内的误差准确率：0.495968
-    - 0.02以内的误差准确率：0.737258
-    - 0.05以内的误差准确率：0.930968
-    - 涨跌准确率：0.886485
+- 2、输出： 第二天收盘价
+- 3、隐含层个数：10
+- 4、拟合结果：
+-  ![图片](https://github.com/CShuangshan/NO.9/blob/master/img/2.png)
+-   0.01以内的误差准确率：0.495968
+-   0.02以内的误差准确率：0.737258
+-   0.05以内的误差准确率：0.930968
+-   涨跌准确率：0.886485
 - B.
-  - 1、输入指标： 
+- 1、输入指标： 
     MACD   WMS   RSI   OBV   收盘价    M30    M10   K指标     D指标     DIF     DEA 
-  - 2、输出： 第二天收盘价
-  - 3、隐含层个数：23
-  - 4、拟合结果：![](https://github.com/CShuangshan/NO.9/blob/master/img/3.png)
-    - 0.01以内的误差准确率：0.499355
-    - 0.02以内的误差准确率：0.747903
-    - 0.05以内的误差准确率：0.948065
-    - 涨跌准确率：0.888422
+- 2、输出： 第二天收盘价
+- 3、隐含层个数：23
+- 4、拟合结果：
+-  ![图片](https://github.com/CShuangshan/NO.9/blob/master/img/3.png)
+-   0.01以内的误差准确率：0.499355
+-   0.02以内的误差准确率：0.747903
+-   0.05以内的误差准确率：0.948065
+-   涨跌准确率：0.888422
 - C.
-  - 1、输入指标：
+- 1、输入指标：
     MACD   WMS   RSI   OBV   收盘价    M30    M10   K指标     D指标     DIF     DEA 
-  - 2、输出： 第二天收盘价
-  - 3、隐含层个数: 3
-  - 4、拟合结果：![](https://github.com/CShuangshan/NO.9/blob/master/img/4.png)
-    - 0.01以内的误差准确率：0.525484
-    - 0.02以内的误差准确率：0.763226
-    - 0.05以内的误差准确率：0.938065
-    - 涨跌准确率：0.880995
+- 2、输出： 第二天收盘价
+- 3、隐含层个数: 3
+- 4、拟合结果：
+-    ![图片](https://github.com/CShuangshan/NO.9/blob/master/img/4.png)
+-   0.01以内的误差准确率：0.525484
+-   0.02以内的误差准确率：0.763226
+-   0.05以内的误差准确率：0.938065
+-   涨跌准确率：0.880995
 
-- D. </br>
- 1、输入指标： </br>
+- D. 
+- 1、输入指标： 
     MACD   WMS   RSI   OBV   收盘价    M30    M10   K指标     D指标     DIF     DEA </br>
- 2、输出： </br>
-    第二天收盘价 </br>
- 3、隐含层个数： </br>
-	4 </br>
- 4、拟合结果：</br>
-![](https://github.com/CShuangshan/NO.9/blob/master/img/5.png)
-- 0.01以内的误差准确率：0.533065
-- 0.02以内的误差准确率：0.770806
-- 0.05以内的误差准确率：0.958710
-- 涨跌准确率：0.889714
+- 2、输出： 
+    第二天收盘价 
+- 3、隐含层个数： 
+	4 
+- 4、拟合结果：
+-  ![图片](https://github.com/CShuangshan/NO.9/blob/master/img/5.png)
+-   0.01以内的误差准确率：0.533065
+-   0.02以内的误差准确率：0.770806
+-   0.05以内的误差准确率：0.958710
+-   涨跌准确率：0.889714
 
-- E.</br>
- 1、输入指标： </br>
+- E.
+- 1、输入指标： 
     MACD   WMS   RSI   OBV   收盘价    M30    M10   K指标     D指标     DIF     DEA </br>
- 2、输出： </br>
-    第二天收盘价 </br>
- 3、隐含层个数： </br>
-	5 </br>
- 4、拟合结果：</br>
-![](https://github.com/CShuangshan/NO.9/blob/master/img/6.png)
-- 0.01以内的误差准确率：0.517419
-- 0.02以内的误差准确率：0.768710
-- 0.05以内的误差准确率：0.955968
-- 涨跌准确率：0.891975
+- 2、输出： 
+    第二天收盘价 
+- 3、隐含层个数： 
+	5 
+- 4、拟合结果：
+- ![图片](https://github.com/CShuangshan/NO.9/blob/master/img/6.png)
+-   0.01以内的误差准确率：0.517419
+-   0.02以内的误差准确率：0.768710
+-   0.05以内的误差准确率：0.955968
+-   涨跌准确率：0.891975
 
-- F.</br>
- 1、输入指标： </br>
-    MACD   WMS   RSI   OBV   收盘价  </br>
- 2、输出： </br>
-    第二天收盘价 </br>
- 3、隐含层个数： </br>
-	10 </br>
- 4、拟合结果：</br>
-![](https://github.com/CShuangshan/NO.9/blob/master/img/7.png)
-- 0.01以内的误差准确率：0.512289
-- 0.02以内的误差准确率：0.764980
-- 0.05以内的误差准确率：0.945703
-- 涨跌准确率：0.885815
+- F.
+- 1、输入指标： 
+    MACD   WMS   RSI   OBV   收盘价  
+- 2、输出： 
+    第二天收盘价 
+- 3、隐含层个数： 
+	10 
+- 4、拟合结果：
+- ![图片](https://github.com/CShuangshan/NO.9/blob/master/img/7.png)
+-   0.01以内的误差准确率：0.512289
+-   0.02以内的误差准确率：0.764980
+-   0.05以内的误差准确率：0.945703
+-   涨跌准确率：0.885815
 
 
 ### 2.3 神经网络时间序列模型Nonlinear Autoregressive (NAR)
@@ -139,13 +142,13 @@ MACD 、	WMS、   RSI、   OBV、    M30、    M10、   K指标、     D指标�
 - 训练方法选用Levenberg-marquardt，一种非线性最小二乘算法；
 - 指定训练集为80%，验证集和测试集均为10%
 - 由以上选择配置，得到神经网络如下：
-![](https://github.com/CShuangshan/NO.9/blob/master/img/8.png)
+- ![图片](https://github.com/CShuangshan/NO.9/blob/master/img/8.png)
 
 #### 2.3.2 数据拟合结果
 
 （蓝色表示实际值，红色表示预测值）
 
-![](https://github.com/CShuangshan/NO.9/blob/master/img/9.png)
+- ![图片](https://github.com/CShuangshan/NO.9/blob/master/img/9.png)
 
 - 涨跌幅在1%以内的为54.3%左右，涨跌幅在2%以内的为78.2%左右，涨跌幅在5%以内的为96.2%左右，有一定的参考价值。
 
