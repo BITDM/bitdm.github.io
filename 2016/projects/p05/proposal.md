@@ -1,34 +1,68 @@
 ---
 layout: page
 mathjax: true
-permalink: /projects/p05/proposal/
+permalink: /2016/projects/p05/proposal/
 ---
 
-## 股票数据分析——预测某支股票未来收益
+## 基于Expedia公司数据集的旅馆推荐
 
 ### 成员
 
-- 郝晓鹏  2120141012
--  杜天元  2120140999 
-- 李舒扬  2120141020 
+- 李杨
+- 魏思杰
+- 李苏畅
+- 罗伟
 
-### 目标
+### 项目简介
 
-   通过分析某支股票几年内的交易走向，建立相应数学模型，能够预测未来一段时间内的收益（如涨幅/跌幅能达到百分之多少、收盘价能达到多少、成交量会有何变化等）
+人们在计划旅行时经常遇到选择旅馆的问题。对于每个目的地而言，有成百上千的旅馆可供选择。如何选择到与个人喜好相符合的旅馆是一个难题。我们是选择一个以前住过的有喜欢的甜点的旅馆？还是冒着风险选择一个以前没有住过的有游泳池的旅馆？
 
-### 数据获取方式
+Expedia公司希望改进旅馆推荐算法，对每个用户提供个性化的旅馆推荐。这个问题的规模为每个月数百万条记录。
 
-国内流行的炒股软件（如同花顺）中有导出历史数据的功能，在软件中便可完成股票数据的获取，不需要使用爬虫脚本。
+近来，Expedia使用搜索参数改进了他们的旅馆推荐算法，但是没有足够的用户数据进行个性化推荐。所以，他们提供了他们的数据集，在Kaggle平台上发布了竞赛。
 
-数据中会包括：开盘价，最高价，最低价，收盘价，涨幅，振幅等数据。
+### 数据集
 
+#### 数据集介绍
 
-### 数据分析方式
+Expedia 提供了大量的用户行为数据。包括了用户在搜索什么，他们如何看待搜索结果（点击还是预定），搜索结果是不是一个旅行计划的一部分。数据是随机选择的，并且不具有对整体数据的代表性。
 
-  使用R语言作为数据预测的环境，R语言的TTR包中有大量衡量股票的指标，通过使用合适的指标可以完成我们的预测。
+Expdeia 关注的是用户倾向于预定哪种旅馆类型。Expedia已经通过内部算法构建了旅馆的分类，将价格、用户评价、相距城市中心等因素作为考虑的变量将旅馆进行了聚类。这些旅馆类别将会准确地代表用户将要预测的旅馆类型，这样就避免了有的新旅馆没有历史数据的问题。
+比赛的目标就是预测每一个用户将会预定哪一个旅馆类。
 
- 在模型选择方面，我们打算使用人工神经网络进行建模。
+训练数据集和测试数据集在时间上是分开的：训练数据集来自2013年和2014年的数据，而测试数据集来自2015年的数据。训练数据包括了日志中的所有用户，包括了点击事件和预定事件，而测试数据集只包括预定事件。
 
-###  变量说明：
+#### 数据集大小
 
-在研究的过程中，我们从简单出发，不考虑政策、同类型股票、大盘指数的变化等额外因素，只从该股票本身的每日开盘、收盘价格以及成交量等基本信息入手，建立一个最简单的数学模型。
+训练数据文件：4.07G
+
+测试数据文件：263M
+
+#### 数据集内容
+
+| Column name | Description | Data type |
+| --------------- | ---------- | ----------- |
+| date_time | Timestamp | string |
+| site_name | ID of the Expedia point of sale (i.e. Expedia.com, Expedia.co.uk, Expedia.co.jp, ...) | int |
+| posa_continent | ID of continent associated with site_name | int |
+| user_location_country | The ID of the country the customer is located | int |
+| user_location_region | The ID of the region the customer is located | int |
+| user_location_city | The ID of the city the customer is located | int |
+| orig_destination_distance | Physical distance between a hotel and a customer at the time of search. A null means the distance could not be calculated | double |
+| user_id | ID of user | int |
+| is_mobile | 1 when a user connected from a mobile device, 0 otherwise | tinyint |
+| is_package | 1 if the click/booking was generated as a part of a package (i.e. combined with a flight), 0 otherwise | int |
+| channel | ID of a marketing channel | int |
+| srch_ci | Checkin date | string |
+| srch_co | Checkout date | string |
+| srch_adults_cnt | The number of adults specified in the hotel room | int |
+| srch_children_cnt | The number of (extra occupancy) children specified in the hotel room | int |
+| srch_rm_cnt | The number of hotel rooms specified in the search | int |
+| srch_destination_id | ID of the destination where the hotel search was performed | int |
+| srch_destination_type_id | Type of destination | int |
+| hotel_continent | Hotel continent | int |
+| hotel_country | Hotel country | int |
+| hotel_market | Hotel market | int |
+| is_booking | 1 if a booking, 0 if a click | tinyint |
+| cnt | Numer of similar events in the context of the same user session | bigint |
+| hotel_cluster | ID of a hotel cluster | int

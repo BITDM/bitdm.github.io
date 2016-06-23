@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-permalink: /projects/p11/proposal/
+permalink: /2016/projects/p11/proposal/
 ---
 
 ## 社区问答网站的专家发现
@@ -11,8 +11,8 @@ permalink: /projects/p11/proposal/
 ### 成员
 
 - 王晶 	2120151040
-- 韩学博 	2120150990
-- 李凯霞 	2120151003
+- 韩学博 2120150990
+- 李凯霞 2120151003
 - 张林 	2120151062
 
 ### 数据集  

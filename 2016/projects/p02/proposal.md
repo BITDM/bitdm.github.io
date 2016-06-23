@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-permalink: /projects/p02/proposal/
+permalink: /2016/projects/p02/proposal/
 ---
 
 ## 社交网络中的个性化推荐系统

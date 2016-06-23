@@ -1,22 +1,35 @@
 ---
 layout: page
 mathjax: true
-permalink: /projects/p12/proposal/
+permalink: /2016/projects/p12/proposal/
 ---
 
-## 预测学生的结课成绩
+## 菜鸟-需求预测与分仓规划
 
-### 成员
+> 题目确定时间：2016.5.15
 
-- 石戈 2120141041  
-- 沈伟超2120141040
+### 成员：
 
-### 任务  
+- 崔绿叶2120150981
+- 陈帅 2120150979
+- 贺辉2120150991
 
-从在线教育系统的数据中分析学生的学习状况，并预测学生的结课成绩。我们组准备参考着2010年KDD的评测任务做。
+### 问题描述：
 
-### 参考
+高质量的商品需求预测是供应链管理的基础和核心功能。本赛题以历史一年海量买家和卖家的数据为依据，要求参赛者预测某商品在未来二周全国和区域性需求量。选手们需要用数据挖掘技术和方法精准刻画商品需求的变动规律，对未来的全国和区域性需求量进行预测，同时考虑到未来的不确定性对物流成本的影响，做到全局的最优化。更精确的需求预测，能够大大地优化运营成本，降低收货时效，提升整个社会的供应链物流效率。
 
-KDD2010的project idea如下
+### 问题目标：
 
-> How generally or narrowly do students learn? How quickly or slowly? Will the rate of improvement vary between students? What does it mean for one problem to be similar to another? It might depend on whether the knowledge required for one problem is the same as the knowledge required for another. But is it possible to infer the knowledge requirements of problems directly from student performance data, without human analysis of the tasks? We would like to ask you to predict whether a student is likely to be correct or not on each step given based on previous log data. The problem can be formalized as a classification problem. You could also build a model of students' learning behavior and predict the probability of making an error. The challenge here is to select the correct classifier/model that best represents the data. Moreover, maybe not all given features are informative. Models that are over-complicated may overfit. How to find the relevant features and make good use of them are interesting topics.
+根据现有的从20141010到20151227的全国和区域分仓数据，预测给出后面两周（20151228-20160110）的全国和区域分仓目标的库存量。
+
+### 问题解决：
+
+该问题属于典型的时间序列分析问题，时间序列分析是指某一指标在一定周期内各个时间点上的数值，按时间先后顺序排列成数列，并对此数列进行平稳化检验、差分、建模、诊断等过程后预测该指标在未来的发展趋势。我们组利用所给数据建立相应数据库，分析数据变化趋势并对其进行清理，最后应用自动回归移动平均混合模型（ARIMA模型）预测之后两周的全国和区域分仓目标库存量。
+
+### 项目分工：
+
+- 崔绿叶：对数据进行分析和清理
+- 陈帅、贺辉：对预测模型进行构建和优化
+
+
+

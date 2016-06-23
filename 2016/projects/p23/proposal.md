@@ -1,3 +1,8 @@
+---
+layout: page
+mathjax: true
+permalink: /2016/projects/p23/proposal/
+---
 
 ## 基于Aprori算法的医疗诊断规则的挖掘和分析
 
