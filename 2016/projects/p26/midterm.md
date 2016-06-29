@@ -1,4 +1,8 @@
-
+---
+layout: page
+mathjax: true
+permalink: /2016/projects/p26/midterm/
+---
 
 ## 股票数据分析与预测——中期报告
 
