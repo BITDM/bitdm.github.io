@@ -16,3 +16,4 @@ permalink: /2016/projects/presentation/
 - 06-N-gram based input text predictor （钱钧）
 - 01-细粒度的代驾需求预测 （张燕妮，韩梦乔，刘畅，罗佩）
 - 12-菜鸟-需求预测与分仓规划 （崔绿叶,贺辉,陈帅）
+- 27-Relational Retrieval Using Random Walk With Restart(RWR)
