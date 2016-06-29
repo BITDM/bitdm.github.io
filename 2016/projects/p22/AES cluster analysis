@@ -1,0 +1,24 @@
+# 项目报告 #
+## 一、项目名称 ##
+聚类方法分析获取AES密钥
+## 二、实验环境 ##
+- windows 8.1
+- MATLAB 2014a
+- Sakura 硬件平台
+## 三、实验内容 ##
+1. 在实验平台上采集2000条能量波形
+![](https://github.com/Darkmoon123/Cluster-Analysis/blob/master/2000%E6%9D%A1%E8%83%BD%E9%87%8F%E6%B3%A2%E5%BD%A2%E5%9B%BE.jpg)
+2. 找出信息泄露区域
+![](https://github.com/Darkmoon123/Cluster-Analysis/blob/master/%E4%BF%A1%E6%81%AF%E6%B3%84%E9%9C%B2%E5%8C%BA%E5%9F%9F.jpg)
+3. 在信息泄露区域用汉明重量进行聚类分析
+> Step1  寻找变量之间的相似性
+> 用pdist函数计算相似矩阵，有多种方法可以计算距离，进行计算之前最好先将数据用zscore函数进行标准化。
+> X=zscore(data);  %标准化数据
+> Y=pdist(X);  %计算距离
+> Step2   定义变量之间的连接
+> Z=linkage(Y);
+> Step3  评价聚类信息
+>    C=cophenet(Z,Y); 
+>    
+ ![](https://github.com/Darkmoon123/Cluster-Analysis/blob/master/%E5%88%A4%E6%96%AD%E7%9C%9F%E5%AE%9E%E5%AF%86%E9%92%A5%E7%9B%B8%E5%85%B3%E6%80%A7%E6%83%85%E5%86%B5.jpg)   
+ 最终得到Key=01
