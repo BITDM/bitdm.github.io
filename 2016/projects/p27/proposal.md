@@ -11,7 +11,6 @@ permalink: /2016/projects/p27/proposal/
 - Marwan
 - Elfatih
 - John
-- ALEX
 
 ### Main idea
 
