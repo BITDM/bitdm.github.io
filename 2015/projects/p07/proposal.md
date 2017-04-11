@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-permalink: /projects/p07/proposal/
+permalink: /2015/projects/p07/proposal/
 ---
 
 ## 淘宝/天猫用户数据推荐

@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-permalink: /projects/p04/proposal/
+permalink: /2015/projects/p04/proposal/
 ---
 
 ## 电影评分和推荐

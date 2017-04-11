@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-permalink: /projects/p09/proposal/
+permalink: /2015/projects/p09/proposal/
 ---
 
 ## 预测天猫用户下月的购买情况

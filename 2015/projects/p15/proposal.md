@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-permalink: /projects/p15/proposal/
+permalink: /2015/projects/p15/proposal/
 ---
 
 ## 资金流入流出预测

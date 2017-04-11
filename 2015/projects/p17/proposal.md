@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-permalink: /projects/p17/proposal/
+permalink: /2015/projects/p17/proposal/
 ---
 
 ## 垃圾邮件筛选

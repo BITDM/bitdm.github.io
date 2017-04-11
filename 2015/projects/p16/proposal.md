@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-permalink: /projects/p16/proposal/
+permalink: /2015/projects/p16/proposal/
 ---
 
 ## 钓鱼网站识别

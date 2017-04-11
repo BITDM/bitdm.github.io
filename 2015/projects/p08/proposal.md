@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-permalink: /projects/p08/proposal/
+permalink: /2015/projects/p08/proposal/
 ---
 
 ## 微博的情感分析及群体性情绪预警

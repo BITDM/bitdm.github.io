@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-permalink: /projects/p18/proposal/
+permalink: /2015/projects/p18/proposal/
 ---
 
 ## 基于贝叶斯算法及KNN算法的文本分类

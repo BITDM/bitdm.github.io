@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-permalink: /projects/p05/proposal/
+permalink: /2015/projects/p05/proposal/
 ---
 
 ## 股票数据分析——预测某支股票未来收益

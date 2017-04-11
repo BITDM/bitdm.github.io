@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-permalink: /projects/p12/proposal/
+permalink: /2015/projects/p12/proposal/
 ---
 
 ## 预测学生的结课成绩

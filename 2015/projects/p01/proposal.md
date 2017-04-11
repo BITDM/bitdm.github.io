@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-permalink: /projects/p01/proposal/
+permalink: /2015/projects/p01/proposal/
 ---
 
 ## 大众点评用户评论大数据分析

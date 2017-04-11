@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-permalink: /projects/p19/proposal/
+permalink: /2015/projects/p19/proposal/
 ---
 
 ## 船难幸存预测模型？

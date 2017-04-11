@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-permalink: /projects/p13/proposal/
+permalink: /2015/projects/p13/proposal/
 ---
 
 ## 预测电影的认可程度

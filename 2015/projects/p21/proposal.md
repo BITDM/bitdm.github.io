@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-permalink: /projects/p21/proposal/
+permalink: /2015/projects/p21/proposal/
 ---
 
 ## 主题发现？

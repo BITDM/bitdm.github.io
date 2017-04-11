@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-permalink: /projects/p02/proposal/
+permalink: /2015/projects/p02/proposal/
 ---
 
 ## 人体行为识别

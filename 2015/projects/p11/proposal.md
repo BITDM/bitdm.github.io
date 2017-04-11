@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-permalink: /projects/p11/proposal/
+permalink: /2015/projects/p11/proposal/
 ---
 
 ## 话题检测与跟踪

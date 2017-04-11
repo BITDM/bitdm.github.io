@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-permalink: /projects/p10/proposal/
+permalink: /2015/projects/p10/proposal/
 ---
 
 ## private data released via Bayes net
