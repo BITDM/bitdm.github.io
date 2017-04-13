@@ -1,3 +1,9 @@
+---
+layout: page
+mathjax: true
+permalink: /2017/projects/p13/proposal/
+---
+
 基于内容的图像检索系统设计与实现
 ===========================
 一、小组成员
