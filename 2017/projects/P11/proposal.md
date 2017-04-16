@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-permalink: /2017/projects/P11/proposal/
+permalink: /2017/projects/p11/proposal/
 ---
 
 ## 糖尿病肾病患者生化检验结果分析
