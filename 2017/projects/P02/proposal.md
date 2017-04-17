@@ -29,5 +29,4 @@
 <li>于大江：特征工程</li>
 <li>孙灿：数据分析和撰写报告</li>
 </ul>
-<p>Edit By <a href="http://mahua.jser.me">MaHua</a></p>
 </body></html>
