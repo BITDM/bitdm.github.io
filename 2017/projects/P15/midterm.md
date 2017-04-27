@@ -1,4 +1,4 @@
-﻿---
+---
 layout: page
 mathjax: true
 permalink: /2017/projects/p15/midterm/
