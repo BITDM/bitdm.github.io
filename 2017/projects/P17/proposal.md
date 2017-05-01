@@ -1,4 +1,9 @@
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+---
+layout: page
+mathjax: true
+permalink: /2017/projects/p17/proposal/
+---
+
 # 新浪微博互动预测
 
 ### 小组成员
@@ -52,7 +57,7 @@ content      | 博文内容               |
 $ precision_i = 1 - 0.5*deviation_f - 0.25*deviation_c - 0.25*deviation_l $
 
 计算整体的准确率: 
-$ precision = \Sigma((count_i + 1)*(sgn(pricision_i - 0.8)))/\Sigma(count_i + 1) $
+$$ precision = \Sigma((count_i + 1)*(sgn(pricision_i - 0.8)))/\Sigma(count_i + 1) $$
 
 注：sgn(x)为改进的符号函数,当x > 0时,sgn(x)=1；当x<=0时,sgn(x)=0。
 count_i为第i篇博文的总的转发、评论、赞之和当counti > 100时，count_i = 100。
