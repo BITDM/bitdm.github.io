@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-permalink: /2017/projects/p16/InterimReport/
+permalink: /2017/projects/p16/midterm/
 ---
 
 ## 短期降水量预测
