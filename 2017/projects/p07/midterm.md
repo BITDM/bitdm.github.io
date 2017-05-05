@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-permalink: /2017/projects/P07/midterm/
+permalink: /2017/projects/p07/midterm/
 ---
 
 ## 中期报告
