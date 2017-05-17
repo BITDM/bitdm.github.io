@@ -62,12 +62,23 @@ permalink: /2017/projects/p16/closing/
 尽管已经将原样本的15*4*101*101压缩到101*101规格，但101*101的维度对于只有10000条训练样本的神经网络模型来说仍然过高，因此我们试图利用主成分分析（PCA）对训练数据进行再次降维，我们保留95%的数据主成分，降维到65维的低维空间中（即保留特征值之和大于总特征值之和的百分之95的部分），再送到多层感知机中，并据此改变隐含层大小（h=10）：
 ![](https://github.com/xhhszc/image-for-DM/raw/master/PCA+MLP.png)
 ### 六、实验结果与分析
-我们首先给出各模型在运行期间不同迭代次数后再训练集上的RMSE值。
-- LSTM：该模型使用了训练集中的8000条数据来训练模型，并将剩余的2000条数据作为验证集。该模型在训练集上及验证集的RMSE值如下图：
-![](https://github.com/xie-xie/image_for_DMhomework/raw/master/image-1.png)
-- RNN：该模型使用训练集中的所有10000条样本来训练
-此处有图
-- MLP：该模型使用训练集中的所有10000条样本来训练
-![](https://github.com/xhhszc/image-for-DM/raw/master/resultMLP.png)
-- PCA+MLP：该模型使用训练集中的所有10000条样本来训练
-![](https://github.com/xhhszc/image-for-DM/raw/master/resultPCA+MLP.png)
+- 我们首先给出各模型在运行期间不同迭代次数后再训练集上的RMSE值。
+  - LSTM：该模型使用了训练集中的8000条数据来训练模型，并将剩余的2000条数据作为验证集。该模型在训练集上及验证集的RMSE值如下图：
+  ![](https://github.com/xie-xie/image_for_DMhomework/raw/master/image-1.png)
+  
+  可以看出在训练集上，RMSE值随着迭代次数的增加而减小并趋于收敛,这就表明随着迭代次数的增加，该模型再训练集上的预测性能确实有很大程度的提升。而在测试集上面的效果显然不是很优异，RMSE值随着迭代次数的增加并没有显著的持续减小。这就表明该模型存在过拟合的问题，虽然在训练集上表现很好，但是在测试集上的性能仍有待提高。
+  - CNN：该模型使用训练集中的所有10000条样本来训练
+  ![](https://github.com/xhhszc/image-for-DM/raw/master/rmseLineCNN.jpg)
+  该模型在训练集上迅速收敛到最小值5.342。
+  - MLP：该模型使用训练集中的所有10000条样本来训练
+  ![](https://github.com/xhhszc/image-for-DM/raw/master/resultMLP.png)
+  在训练集上其RMSE值趋于收敛。RMSE值在迭代20000次后，值为215.589
+  - PCA+MLP：该模型使用训练集中的所有10000条样本来训练
+  ![](https://github.com/xhhszc/image-for-DM/raw/master/resultPCA+MLP.png)
+  在训练集上收敛较快，在收敛之后其RMSE值较为平滑，可见该模型较为稳定。RMSE值最后稳定在250左右。
+- 我们将四个模型的预测结果提交到天池大赛平台，并得到在测试集上的RMSE值：
+![](https://github.com/xhhszc/image-for-DM/raw/master/result1.png)
+
+虽然CNN模型在训练集上的RMSE最低，但与其他模型相比，CNN在测试集上有着较高的RMSE值。相反地，PCA+MLP模型在训练集上有着较高的RMSE值，但在测试集上却得到了最好的效果。可见我们的模型存在着较为严重的过拟合问题。
+
+当前该比赛排名第一的队伍拥有着RMSE=10.70334的成绩，但对于降雨量预测来说，这个结果仍然不容乐观。在许多参赛队伍的质疑下，天池官方给出了一个关于为什么测试集与训练集差异如此之大的原因：训练集为前两年的降雨量数据，而测试集为第三年的降雨量数据，由于天气及环境多变的特性，严密的时间断层可能会使得训练集与测试集的数据差异较大。因此在这个比赛中，如何巧妙的避免数据过拟合似乎成为了重心。这个比赛共有1182个队伍，在经过我们尝试了各种模型以及参数的调整之后，最终以当前RMSE=14.5378，排名117的成绩收官。
