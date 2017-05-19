@@ -15,11 +15,11 @@
 #### 4.1数据集及数据预处理工作
 我们使用movielens提供的一个小型数据集作为本次实验的使用数据。该数据集包含三个文件，movies.dat, users.dat和ratings.dat，分别表示电影信息，用户信息以及用户对电影的评分情况。数据集包含3883部电影信息，包括电影名称及类型；6040个用户信息，包含用户的ID，性别，年龄，职业，邮编；1000209条评分信息，包含用户ID，电影ID，评分以及时间戳。由于原始数据集使用文本文件形式存放，不利于程序的读取与操作，且由于编码问题，原始数据存在一些乱码，所以首先要进行数据格式转换及预处理。我们使用matlab2016b，将原始数据导入程序，最终以csv格式分行分列存储，一遍python程序的下一步操作。数据格式介绍
 
-![](https://github.com/upTina/bitdm.github.io/blob/master/2017/projects/P12/images/original_movies_data.png)             
+![](https://github.com/upTina/bitdm.github.io/blob/master/2017/projects/P12/source/images/original_movies_data.png)             
 > 上图为原始数据截图            
-![](https://github.com/upTina/bitdm.github.io/blob/master/2017/projects/P12/images/movies_data.png)            
+![](https://github.com/upTina/bitdm.github.io/blob/master/2017/projects/P12/source/images/movies_data.png)            
 > 上图为处理以后的“movies”数据截图，每一列分别表示电影ID，电影名称，电影类型，其中类型可以有多种
-![](https://github.com/upTina/bitdm.github.io/blob/master/2017/projects/P12/images/users_data.png)              
+![](https://github.com/upTina/bitdm.github.io/blob/master/2017/projects/P12/source/images/users_data.png)              
 > 上图为处理后的“users”截图，包含用户的ID，性别，年龄，职业，邮编
-![](https://github.com/upTina/bitdm.github.io/blob/master/2017/projects/P12/images/ratings.png)               
+![](https://github.com/upTina/bitdm.github.io/blob/master/2017/projects/P12/source/images/ratings.png)               
 > 上图为处理后的“ratings”截图，包含用户ID，电影ID，评分以及时间戳
