@@ -21,5 +21,5 @@
 > 上图为处理以后的“movies”数据截图，每一列分别表示电影ID，电影名称，电影类型，其中类型可以有多种
 ![](https://github.com/upTina/bitdm.github.io/blob/master/2017/projects/P12/images/users_data.png)
 > 上图为处理后的“users”截图，包含用户的ID，性别，年龄，职业，邮编
-![](https://github.com/upTina/bitdm.github.io/blob/master/2017/projects/P12/images/ratings_data.png)
+![](https://github.com/upTina/bitdm.github.io/blob/master/2017/projects/P12/images/ratings.png)
 > 上图为处理后的“ratings”截图，包含用户ID，电影ID，评分以及时间戳
