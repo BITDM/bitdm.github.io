@@ -24,13 +24,16 @@
 ![](https://github.com/upTina/bitdm.github.io/blob/master/2017/projects/P12/source/images/ratings.png)               
 > 上图为处理后的“ratings”截图，包含用户ID，电影ID，评分以及时间戳
 #### 4.2评价最多的前50部电影
-对每一部电影获得的评分个数进行排序，得到前50个评分最多的电影。这个指标并不能表示电影获得评价最高，但是却可以告诉我们什么类型的电影最火爆，观众最喜爱观看
+对每一部电影获得的评分个数进行排序，得到前50个评分最多的电影。这个指标并不能表示电影获得评价最高，但是却可以告诉我们什么类型的电影最火爆，观众最喜爱观看      
 ![](https://github.com/upTina/bitdm.github.io/blob/master/2017/projects/P12/source/images/watched_top50(1).png)               
 ![](https://github.com/upTina/bitdm.github.io/blob/master/2017/projects/P12/source/images/watched_top50(2).png)               
 > 获得评价最多的50部电影
 
-### 4.3评分最高的50部电影
-这项指标显示了从开始有评分到现在所有电影里，观众评价最高的前50部电影。这有助于我们知道什么电影是观众真正喜爱的电影。
+#### 4.3评分最高的50部电影
+这项指标显示了从开始有评分到现在所有电影里，观众评价最高的前50部电影。这有助于我们知道什么电影是观众真正喜爱的电影。      
 ![](https://github.com/upTina/bitdm.github.io/blob/master/2017/projects/P12/source/images/ranked_top50(1).png)               
 ![](https://github.com/upTina/bitdm.github.io/blob/master/2017/projects/P12/source/images/ranked_top50(2).png)               
 > 评分最高的50部电影
+### 5.下阶段目标
+- 电影评分数据挖掘
+- 基于协同过滤的电影推荐系统
