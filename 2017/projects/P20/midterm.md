@@ -4,6 +4,7 @@ mathjax: true
 permalink: /2017/projects/p20/midterm/
 ---
 
+## 基于信号特征的房颤心电分类（阶段报告）
 
 ### 一、小组成员
 
@@ -83,6 +84,7 @@ the PhysioNet/Computing in Cardiology Challenge 2017 官网上提供了训练集
 （1）峰均功率比：
 
 不同层的小波系数的功率谱提供ECG信号不同尺度的频谱信息，因此可用于分析心房活动。已知心房活动通常发生在4-9Hz的频率范围内。因此，在AF发作期间，预期在该频率范围内AF信号的功率更集中。
+![](https://raw.githubusercontent.com/vvvvv304/image/master/1.png)
 
 提取步骤：小波变换--> 用每一层系数小波重构
 
@@ -100,3 +102,4 @@ the PhysioNet/Computing in Cardiology Challenge 2017 官网上提供了训练集
 
 #### 3. 对得到的特征进行初步统计分析
 我们把不同组的特征最对比，希望粗略筛选出每个组区别较大的特征。如图所示，为某一层系数的峰均功率比在四组之间的盒图：
+![](https://raw.githubusercontent.com/vvvvv304/image/master/2.png)
