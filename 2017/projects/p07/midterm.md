@@ -22,7 +22,7 @@ permalink: /2017/projects/p07/midterm/
 实验过程中主要按下图的步骤进行：
 
 <div class="fig figcenter fighighlight">
-    <img src="/2017/projects/p07/images/1.png" >
+    <img src="/2017/projects/p07/image/1.png" >
 </div>
 
 ### 3.模型设计
@@ -36,7 +36,7 @@ permalink: /2017/projects/p07/midterm/
 来自于数据堂的65535条数据，其中包括了订单号、产品名称、付款时间、付款金额、付款类型以及支付类型等属性，属于典型的电商购物型数据。
 
 <div class="fig figcenter fighighlight">
-    <img src="/2017/projects/p07/images/2.png" >
+    <img src="/2017/projects/p07/image/2.png" >
 </div>
 
 ### 5.项目进度
@@ -44,12 +44,12 @@ permalink: /2017/projects/p07/midterm/
 为了调试代码，已经在小数据集上完成了简单的关联规则挖掘。小数据集中包含2800条购物数据，共1000次购物，其中包含物品11种。本文根据顾客的id号生成购物篮元组数据。接着按Apriori算法产生相应的候选项集C1，再有由C1产生L1……在设置minSupport=0.15，minCof=0.5时，生成的频繁项集和关联规则如下图所示：
 
 <div class="fig figcenter fighighlight">
-    <img src="/2017/projects/p07/images/3.png" >
+    <img src="/2017/projects/p07/image/3.png" >
     <div class="figcaption">挖掘得到的频繁项集</div>
 </div>
 
 <div class="fig figcenter fighighlight">
-    <img src="/2017/projects/p07/images/2.png" >
+    <img src="/2017/projects/p07/image/2.png" >
     <div class="figcaption">挖掘得到的部分关联规则</div>
 </div>
 
