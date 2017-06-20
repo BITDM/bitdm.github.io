@@ -25,9 +25,10 @@ permalink: /2017/projects/p05/midterm/
     <div class="figcaption">图1 染色体、基因和位点的结构关系</div>
 </div>
 
-表1. 完全基因组数据库的样本采集结构图
-
-![](https://github.com/MichealCarol/bitdm.github.io/raw/master/2017/projects/P05/images/表1.%20完全基因组数据库的样本采集结构图.png)
+<div class="fig figcenter fighighlight">
+    <div class="figcaption">表1. 完全基因组数据库的样本采集结构图</div>
+    <a href="/2017/projects/P05/images/表1.%20完全基因组数据库的样本采集结构图.png"><img src="/2017/projects/P05/images/表1.%20完全基因组数据库的样本采集结构图.png" ></a>
+</div>
 
 注：以6个样本为例，其中3个病人，3个健康者，位点名称通常以rs开头。
 
