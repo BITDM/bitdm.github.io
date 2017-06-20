@@ -20,13 +20,14 @@ permalink: /2017/projects/p05/midterm/
 
 近年来，随着计算机应用技术的发展以及大数据时代的到来，人们对人体基因与遗传性疾病的研究越来越深入了。研究人员大都采用全基因组的方法来确定致病位点或致病基因，具体做法是：招募大量志愿者（样本），包括具有某种遗传病的人和健康的人，通常用1表示病人，0表示健康者。对每个样本，采用碱基(A,T,C,G)的编码方式来获取每个位点（在组成DNA的数量浩瀚的碱基对中，有一些特定位置的单个核苷酸经常发生变异引起DNA的多态性，我们称之为位点，染色体、基因和位点的结构关系见图1.）的信息(因为染色体具有双螺旋结构，所以用两个碱基的组合表示一个位点的信息）；如表1中，在位点rs100015位置，不同样本的编码都是T和C的组合，有三种不同编码方式TT,TC和CC。研究人员可以通过对样本的健康状况和位点编码的对比分析来确定致病位点，从而发现遗传病或性状的遗传致病机理。
 
-![](https://raw.githubusercontent.com/MichealCarol/bitdm.github.io/master/2017/projects/P05/images/图1%20染色体、基因和位点的结构关系.png)
-
-图1 染色体、基因和位点的结构关系
+<div class="fig figcenter fighighlight">
+    <a href="/2017/projects/P05/images/图1%20染色体、基因和位点的结构关系.png"><img src="/2017/projects/P05/images/图1%20染色体、基因和位点的结构关系.png" ></a>
+    <div class="figcaption">图1 染色体、基因和位点的结构关系</div>
+</div>
 
 表1. 完全基因组数据库的样本采集结构图
 
-![](https://github.com/MichealCarol/bitdm.github.io/blob/master/2017/projects/P05/images/%E8%A1%A81.%20%E5%AE%8C%E5%85%A8%E5%9F%BA%E5%9B%A0%E7%BB%84%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E6%A0%B7%E6%9C%AC%E9%87%87%E9%9B%86%E7%BB%93%E6%9E%84%E5%9B%BE.png)
+![](https://github.com/MichealCarol/bitdm.github.io/raw/master/2017/projects/P05/images/表1.%20完全基因组数据库的样本采集结构图.png)
 
 注：以6个样本为例，其中3个病人，3个健康者，位点名称通常以rs开头。
 
