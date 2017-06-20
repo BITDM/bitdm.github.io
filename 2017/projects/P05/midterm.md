@@ -60,7 +60,7 @@ permalink: /2017/projects/p05/midterm/
 由于所有样本序列上的本一个二核苷酸位点代表了一个属性，本文总共有9445个位点即9445个不同的属性，这些属性由十进制表示（见图2.）。其中，属性列中PC1～PCn 表示9445个不同的属性指标；AA,AC,AG,AT,...,TT表示16中不同的原始二核苷酸。
 
 <div class="fig figcenter fighighlight">
-    <a href="/2017/projects/P05/images/图2.%20碱基对的十进制编码过程.png"><img src="/2017/projects/P05/images/图2.%20碱基对的十进制编码过程.png" ></a>
+    <a href="/2017/projects/P05/images/图2%20碱基对的十进制编码过程.png"><img src="/2017/projects/P05/images/图2%20碱基对的十进制编码过程.png" ></a>
     <div class="figcaption">图2 碱基对的十进制编码过程</div>
 </div>
 
