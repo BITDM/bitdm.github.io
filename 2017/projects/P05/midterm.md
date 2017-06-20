@@ -39,23 +39,30 @@ permalink: /2017/projects/p05/midterm/
 数据集（gene_pheno_dataset）大小：`27.1 MB`
 包含文件：
 
-![](https://github.com/MichealCarol/bitdm.github.io/blob/master/2017/projects/P05/images/gene_pheno_dataset.png)
+<div class="fig figcenter fighighlight">
+    <img src="/2017/projects/P05/images/gene_pheno_dataset.png" >
+</div>
 
 数据清洗及分类提取后的数据集如下：
 
-![](https://github.com/MichealCarol/bitdm.github.io/blob/master/2017/projects/P05/images/%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E5%8F%8A%E5%88%86%E7%B1%BB%E6%8F%90%E5%8F%96%E5%90%8E%E7%9A%84%E6%95%B0%E6%8D%AE%E9%9B%86.png)
+<div class="fig figcenter fighighlight">
+    <img src="/2017/projects/P05/images/数据清洗及分类提取后的数据集.png" >
+</div>
 
 我们使用了位点测试数据集，来自1000个可能致病的染色体片段试验检测结果，标签分布为500个无病染色体使用0表示，500个患病染色体使用1表示，且每个致病染色体上有9445个碱基对，以此作为位点。采用十进制{0,1,2,3...}编码将每个碱基对转化成数据编码方式，以便于数据分析。“AA”为“0”；“AC”为“1”；“AG”为2；“AT”为3...“TT”为9，详见碱基对编码表2（其中{AC,CA}；{CG,GC}；...碱基对表示方式相同）。
 
-表2. 碱基对编码
-![](https://github.com/MichealCarol/bitdm.github.io/blob/master/2017/projects/P05/images/%E8%A1%A82.%20%E7%A2%B1%E5%9F%BA%E5%AF%B9%E7%BC%96%E7%A0%81.png)
+<div class="fig figcenter fighighlight">
+    <div class="figcaption">表2. 碱基对编码</div>
+    <a href="/2017/projects/P05/images/表2.%20碱基对编码.png"><img src="/2017/projects/P05/images/表2.%20碱基对编码.png" ></a>
+</div>
 
 另外，位点中出现字符‘I’和‘D’，根据说明，分别用‘T’和‘C’代替。
 由于所有样本序列上的本一个二核苷酸位点代表了一个属性，本文总共有9445个位点即9445个不同的属性，这些属性由十进制表示（见图2.）。其中，属性列中PC1～PCn 表示9445个不同的属性指标；AA,AC,AG,AT,...,TT表示16中不同的原始二核苷酸。
 
-![](https://github.com/MichealCarol/bitdm.github.io/blob/master/2017/projects/P05/images/%E5%9B%BE2%20%E7%A2%B1%E5%9F%BA%E5%AF%B9%E7%9A%84%E5%8D%81%E8%BF%9B%E5%88%B6%E7%BC%96%E7%A0%81%E8%BF%87%E7%A8%8B.png)
-
-图2 碱基对的十进制编码过程
+<div class="fig figcenter fighighlight">
+    <a href="/2017/projects/P05/images/图2.%20碱基对的十进制编码过程.png"><img src="/2017/projects/P05/images/图2.%20碱基对的十进制编码过程.png" ></a>
+    <div class="figcaption">图2 碱基对的十进制编码过程</div>
+</div>
 
 ### 4. 算法设计原理与实现
 
@@ -66,6 +73,7 @@ permalink: /2017/projects/p05/midterm/
 
 基于本文要解决的问题，算法主函数要得到的结果应包括：9445个位点属性的预测精度（输出predict_accuracy.txt）、预测精度的降序排列结果及对应的位点序号（输出predict_accuracy_desc.txt）、Top n 预测精度及对应预测精度所在的位点名称（n取10）。
 主函数算法实现步骤：
+
 1)	开始；
 2)	加载十进制编码9445个位点的所有属性数据all_feature(i,j)；
 3)	数据属性归一化处理，将十进制数据变换到(0, 1)区间上；
@@ -73,9 +81,12 @@ permalink: /2017/projects/p05/midterm/
 5)	对预测结果降序排列，即预测精度 accuracy 从高到低排列；
 6)	选出Top n 预测精度及对应预测精度所在的位点；
 7)	结束。
+
 其中，数据归一化处理过程中，对于第i个样本的第j个位点编码all_feature(i,j)做如下变换得到归一化的属性编码数据：
 
-![](https://github.com/MichealCarol/bitdm.github.io/blob/master/2017/projects/P05/images/%E5%85%AC%E5%BC%8F1-data_attr.png)
+<div class="fig figcenter fighighlight">
+    <img src="/2017/projects/P05/images/公式1-data_attr.png" >
+</div>
 
 #### 4.2 预测函数设计模块
 
