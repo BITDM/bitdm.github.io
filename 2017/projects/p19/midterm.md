@@ -1,3 +1,4 @@
+
 ---
 layout: page
 mathjax: true
@@ -16,6 +17,7 @@ permalink: /2017/projects/p19/midterm/
 首先需要对从网易财经获得上证综值进行清洗，具体包括：
 
 > 1)填补日期，并对非交易日的数据进行剔除；
+
 > 2)除去股票中不需要的属性；
 
 ### 二、模型训练
@@ -28,13 +30,13 @@ permalink: /2017/projects/p19/midterm/
 
 标准化公式：
 
-$$ n_i = \frac{p_i}{p_0} - 1 $$
+![公式](http://latex.codecogs.com/gif.latex?n_i=\frac{p_i}{p_0}-1)
 
-$ n_i $ 为处理后数据
+![公式](http://latex.codecogs.com/gif.latex?n_i) 为处理后数据
 
-$ p_i $ 为处理前数据
+![公式](http://latex.codecogs.com/gif.latex?p_i) 为处理前数据
 
-$ p_0 $ 为处理窗口的第一个数据
+![公式](http://latex.codecogs.com/gif.latex?p_0) 为处理窗口的第一个数据
 
 #### 2. 构建神经网络模型
 
@@ -44,7 +46,7 @@ $ p_0 $ 为处理窗口的第一个数据
 
 准确率计算公式：
 
-$$ acc = 1 - |\frac{y_t - y_p}{y_t + 1}| $$
+![公式](http://latex.codecogs.com/gif.latex?acc=1-|\frac{y_t-y_p}{y_t+1}|)
 
 损失函数采用的是MSE（均方误差），优化器采用的是RMSProp
 
