@@ -1,4 +1,3 @@
-
 ---
 layout: page
 mathjax: true
