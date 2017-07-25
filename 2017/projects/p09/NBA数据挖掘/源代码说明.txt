@@ -1,0 +1,18 @@
+源代码主要分为四部分：
+第一部分：数据爬取代码，其中getBasketBallData.py爬取所有球员的生涯数据。
+			    getBasketballData2.py爬取所有球员每个赛季的数据。
+第二部分：数据处理代码，java:
+			Translation.java:将球员中文姓名翻译成英文。
+			CSV2TXT.java:将爬取的csv数据文件缺失值用“？”代替，并把球员中文名字翻译成英文(调用Baidu.java)，方便放入matlab处理。
+			WinLoseStatistic.java:统计每个球员的胜负场次。
+
+			matlab:
+			缺失值填补并添加胜负率特征。
+			prenew.m:处理java代码处理后的16-17数据。
+			preWhole.m:处理java代码处理后的所有nba球员每个赛季的场均数据。
+
+
+第三部分：球队战绩预测代码，game_outcome.py对球队战绩进行预测，结果输出在数据文件16-17Result.csv中。
+
+
+第四部分：球员个人数据预测代码，k-means-player.py对球员进行聚类，rnn_player_stat.py使用rnn循环神经网络训练模型。
