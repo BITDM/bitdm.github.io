@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-permalink: /2017/projects/p9/proposal/
+permalink: /2017/projects/p09/proposal/
 ---
 
 ## NBA数据挖掘
