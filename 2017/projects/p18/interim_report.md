@@ -1,9 +1,15 @@
+---
+layout: page
+mathjax: true
+permalink: /2017/projects/p18/midterm/
+---
+
 ## PISA数据集数据可视化-中期报告
 
 ### 小组成员
 
-1. 何果财
-2. 秦晓东
+- 何果财
+- 秦晓东
 
 ### 当前进展
 
