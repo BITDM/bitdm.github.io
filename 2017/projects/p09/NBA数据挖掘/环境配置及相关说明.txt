@@ -1,0 +1,5 @@
+操作系统：Ubuntu14.04
+语言：Python 2.7
+      java1.8.0
+      matlab
+需要安装的Python库：TensorFlow、scikit-learn。
