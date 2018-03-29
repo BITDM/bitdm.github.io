@@ -58,6 +58,10 @@ D —— 用户对商品全集的行为数据集合
 
 采用经典的精确度(precision)、召回率(recall)和F1值作为评估指标。具体计算公式如下：
 
+![](https://gtms01.alicdn.com/tps/i1/TB1WNN4HXXXXXbZaXXXwu0bFXXX.png)
 
+其中PredictionSet为算法预测的购买数据集合，ReferenceSet为真实的答案购买数据集合。F1值作为最终的唯一评测标准。
 
 ### 项目分工
+
+- 欧英子：数据分析与处理、算法设计、程序实现、文档编写、PPT制作
