@@ -22,6 +22,7 @@ permalink: /2018/projects/p02/proposal/
 ### 项目评估
 	通过logarithmic loss（记为logloss）评估模型效果（越小越好）， 公式如下：
 <a href="https://www.codecogs.com/eqnedit.php?latex=logloss=-\frac{1}{N}\sum_{i=1}^{N}(y_{i}log(p_{i})&plus;(1-y_{i})log(1-p_{i}))" target="_blank"><img src="https://latex.codecogs.com/gif.latex?logloss=-\frac{1}{N}\sum_{i=1}^{N}(y_{i}log(p_{i})&plus;(1-y_{i})log(1-p_{i}))" title="logloss=-\frac{1}{N}\sum_{i=1}^{N}(y_{i}log(p_{i})+(1-y_{i})log(1-p_{i}))" /></a>
+	
 	其中N表示测试集样本数量，yi表示测试集中第i个样本的真实标签，pi表示第i个样本的预估转化率
 ### 项目分工
 	数据处理：李博
