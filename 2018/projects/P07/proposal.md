@@ -4,9 +4,14 @@ mathjax: true
 permalink: /2018/projects/p07/proposal/
 ---
 
-## 项目题目
+## 新浪微博互动预测
 
 ### 成员
+
+- 王学博
+- 陈晓珍
+- 余睿哲
+- 谌丹璐
 
 ### 问题描述
 
