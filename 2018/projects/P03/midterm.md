@@ -18,26 +18,25 @@ YelpCHI数据库包括用户和产品之间的关系信息外，在评论数据�
 ### 数据分析与可视化
 
 >每一条数据的属性有：评论的时间，评论的标识，评论人的标识，评论产品的标识，对产品的评级（1-5）和评论内容，以及附加的过滤结果（虚假评论和正常评论），全部是标称属性。首先进行初步分析，根据评论发生的时间、评级等行为分析虚假评论和正常评论。我们选取一些特征分析（下面只列了部分）。
-①	RD：星级评级分布
- ![RD.png](https://github.com/2120/bitdm.github.io/blob/master/2018/projects/P12/image/ISR.png)
+①RD：星级评级分布
+ ![RD.png](https://github.com/2120171054/bitdm.github.io/blob/master/2018/projects/P03/image/RD.PNG)
 从图中可以看出，所有的评论评级都是好评居多（符合人们的消费习惯），但是对于虚假评论的极端评级较多（评级为1和5），而正常评论的好评居多。
-②	ToO：评论发生的时间（分布的年限和月份）
-![ToO1.png](https://github.com/2120171054/bitdm.github.io/blob/master/2018/projects/P03/image/ISR.PNG)
-![ToO2.png](https://github.com/2120171054/bitdm.github.io/blob/master/2018/projects/P03/image/ToO2.png)
- 
+②ToO：评论发生的时间（分布的年限和月份）
+![ToO1.png](https://github.com/2120171054/bitdm.github.io/blob/master/2018/projects/P03/image/ToO1.PNG)
+![ToO2.png](https://github.com/2120171054/bitdm.github.io/blob/master/2018/projects/P03/image/ToO2.PNG)
 正常评论和虚假评论的分布基本类似，仅从评论的角度看很难得到有效信息。
-③	ISR ：是否是该评论者唯一的评论（0表示非唯一，1表示唯一）
-![ISR.png](https://github.com/2120171054/bitdm.github.io/blob/master/2018/projects/P03/image/ISR.png)
+③ISR ：是否是该评论者唯一的评论（0表示非唯一，1表示唯一）
+![ISR.png](https://github.com/2120171054/bitdm.github.io/blob/master/2018/projects/P03/image/ISR.PNG)
 可以很明显的看出差别，正常评论者往往评论不止一次，而虚假评论者的评论很多的情况下是唯一的。
 接下来进行进一步的探索评论的内容对于识别虚假分布的影响，选取下面关于文本的特征（只列了部分）。
-①	L:评论的长度分布（归一化后）
-![L.png](https://github.com/2120171054/bitdm.github.io/blob/master/2018/projects/P03/image/L.png)
+①L:评论的长度分布（归一化后）
+![L.png](https://github.com/2120171054/bitdm.github.io/blob/master/2018/projects/P03/image/L.PNG)
 可以看出评论的长度分布类似，但是正常的评论的长度相对来说比较长。
-②	PP1:d第一人称出现的比例
-![PP1.png](https://github.com/2120171054/bitdm.github.io/blob/master/2018/projects/P03/image/PP1.png)
+②PP1:d第一人称出现的比例
+![PP1.png](https://github.com/2120171054/bitdm.github.io/blob/master/2018/projects/P03/image/PP1.PNG)
 正常评论的第一人称出现的频率相对较低，而虚假评论为了可信度，往往采用较多的第一人称。
-③	RES：感叹词出现的比例等
-![RES.png](https://github.com/2120171054/bitdm.github.io/blob/master/2018/projects/P03/image/RES.png)
+③RES：感叹词出现的比例等
+![RES.png](https://github.com/2120171054/bitdm.github.io/blob/master/2018/projects/P03/image/RES.PNG)
 感叹词的分布（！等）类似，一般情况下使用较少。
 上面选取了部分基于行为特征和基于内容的特征的分布情况，可以看出，虚假评论和正常评论一定情况下是可以进行区分的，这也是我们工作的可行性。
 
