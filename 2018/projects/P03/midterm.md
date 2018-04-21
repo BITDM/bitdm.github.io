@@ -19,7 +19,7 @@ YelpCHI数据库包括用户和产品之间的关系信息外，在评论数据�
 
 >每一条数据的属性有：评论的时间，评论的标识，评论人的标识，评论产品的标识，对产品的评级（1-5）和评论内容，以及附加的过滤结果（虚假评论和正常评论），全部是标称属性。首先进行初步分析，根据评论发生的时间、评级等行为分析虚假评论和正常评论。我们选取一些特征分析（下面只列了部分）。
 ①	RD：星级评级分布
- ![RD.png](https://github.com/2120171054/bitdm.github.io/master/2018/projects/P03/image/RD.png)
+ ![RD.png](bitdm.github.io/2018/projects/P03/image/ISR.PNG)
 从图中可以看出，所有的评论评级都是好评居多（符合人们的消费习惯），但是对于虚假评论的极端评级较多（评级为1和5），而正常评论的好评居多。
 ②	ToO：评论发生的时间（分布的年限和月份）
 ![ToO1.png](https://github.com/2120171054/bitdm.github.io/blob/master/2018/projects/P03/image/ToO1.png)
