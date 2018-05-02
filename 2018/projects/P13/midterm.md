@@ -8,7 +8,7 @@ permalink: /2018/projects/p13/midterm/
 
 ### 数据获取及预处理
 
-本项目数据集取自https://www.kaggle.com/c/word2vec-nlp-tutorial/data，其中包含25000条带标注的IMDB电影评论数据和75000条无标注的评论数据。其中review是评论文本，sentiment是情感分类标注，1代表positive，即评分5分及以上；0代表negative，即评分0-4.9分。
+本项目数据集取自https://www.kaggle.com/c/word2vec-nlp-tutorial/data ，其中包含25000条带标注的IMDB电影评论数据和75000条无标注的评论数据。其中review是评论文本，sentiment是情感分类标注，1代表positive，即评分5分及以上；0代表negative，即评分0-4.9分。
 
 数据集结构如下图所示
 
