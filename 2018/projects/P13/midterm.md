@@ -12,7 +12,7 @@ permalink: /2018/projects/p13/midterm/
 
 数据集结构如下图所示
 
-![数据集结构](https://bitdm.github.io/2018/projects/p13/Dataset.png)
+![数据集结构](./Dataset.png)
 
 数据集需要进行预处理，例如过滤掉一些非ASCII字符，清洗掉一些换行符，将大写字母转换为小写等。
 
@@ -20,11 +20,11 @@ permalink: /2018/projects/p13/midterm/
 
 目前实现了利用多层感知器模型的分类，生成的网络结构如下
 
-![MLP网络结构](https://bitdm.github.io/2018/projects/p13/MLPStat.png)
+![MLP网络结构](./MLPStat.png)
 
 以此网络进行分类的结果如下
 
-![MLP分类结果](https://bitdm.github.io/2018/projects/p13/MLPIter.png)
+![MLP分类结果](./MLPIter.png)
 
 ### 模型选取
 
