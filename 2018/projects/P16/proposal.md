@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-permalink: /2018/projects/p01/proposal/
+permalink: /2018/projects/p16/proposal/
 ---
 
 ## 项目题目
