@@ -9,23 +9,7 @@ permalink: /2018/projects/p11/midterm/
 ### 数据获取及预处理
 
 1. 采用了阿里云天池比赛提供的数据集，包括了20000用户的完整行为数据以及百万级的商品信息，数据包含两个部分。 第一部分是用户在商品全集上的移动端行为数据（D），第二个部分是商品子集（P）。
-```python
-user = pd.read_csv("../dataset/tianchi_fresh_comp_train_user.csv")
-print 'len is %d' % user.shape[0]
-print user.dtypes
-print user.describe()
-geohash = user.loc[user.loc[:,'user_geohash'].isnull()==True,'user_geohash']
-time = user.loc[user.loc[:,'time'].isnull()==False,'time']
-print 'missing count of geohash: %d' % geohash.shape[0]
-print 'missing count of time: %d' % time.shape[0]
 
-item = pd.read_csv("../dataset/tianchi_fresh_comp_train_item.csv")
-print 'len is %d' % item.shape[0]
-print item.dtypes
-print item.describe()
-geohash1 = item.loc[item.loc[:,'item_geohash'].isnull()==True,'item_geohash']
-print 'missing count of geohash: %d' % geohash1.shape[0]
-```
 ```
 len is 23291027
 
@@ -77,23 +61,40 @@ missing count of geohash: 417508
 
 2. 对数据中的的购买做统计分析
 
+![](https://github.com/oneoyz/bitdm.github.io/blob/master/2018/projects/P11/output/count_day.png)
+![](https://github.com/oneoyz/bitdm.github.io/blob/master/2018/projects/P11/output/count_day_of_P.png)
+
+如图，在12.11和12.12操作次数远高于平常日，其中属于商品子集P的操作次数中，12.12的值也非常高，因此将这两天的数据剔除。
 
 ### 数据分析与可视化
 
-> 描述对数据进行探索性分析的结果，采用可视化的技术呈现
+上面两张图可以反映除了双12期间的操作记录猛增，购买总体都是比较稳定的。为了挖掘不同操作的具体反映，选取了12.17和12.18两日48小时的操作进行呈现。
+![](https://github.com/oneoyz/bitdm.github.io/blob/master/2018/projects/P11/output/count_hour_17-18.png)
+
+0-3分别对应浏览、收藏、加购物车、购买。浏览的操作次数要远远多于其他，这符合常理，同时也反映出一些符合实际的规律，比如操作的高峰在较为空闲的晚上，凌晨的时候操作次数最少。
+
+![](https://github.com/oneoyz/bitdm.github.io/blob/master/2018/projects/P11/output/count_hour_17-18_4.png)
+单独看购买的操作，10:00-15:00和20:00-22:00是两个操作高峰时段。
 
 ### 模型选取
 
-> 选择了哪些数据挖掘方法对数据进行分析与挖掘，及选择的理由
+1.分为两个思路，进行比较。第一个思路是按照规则筛选数据，根据12.18的数据对12.19的购买情况进行预测，如果12.18加入购物车当天没有购买，判断12.19其会购买该商品。初步F1值为7%左右，效果不理想。
+
+2.第二个思路是构建特征，放入xgboost构造决策树，最后输出<用户-商品>对的购买判断。理想的特征分为三部分：用户特征、商品特征和用户-商品特征。目前只完成了部分特征的提取，没有完全构建好训练集和测试集。用户特征包含：用户活跃天数，用户操作统计（浏览、收藏、购买多少次），用户活跃的时间段。商品特征包含：商品的操作统计（被浏览、收藏、购买多少次）。用户-商品特征：该对出现的次数。
+
+3.数据打标签，某一天作为验证或测试集，当天根据用户操作进行打标<用户-商品-种类-标签>，1为购买，0为未购买。
+
+4.数据负采样，根据打标签划分之前的数据，分为已购买的对和未购买的对，比例为1:0.9。
 
 ### 挖掘实验的结果
 
-> 进行数据挖掘后得到的结果
+完成了数据可视化，进行了数据清洗。可以见用户操作的次数整理，集中在12.11和12.12的数据特别多，因此后续训练先去除这两天的数据，以免影响模型。大多数购买发生在10点和21点，浏览白天持平晚上剧增，这可以作为一个规则加入筛选，比如当天加入购物车的时间为晚上到凌晨的，第二天购买的可能性会增加。
+
 
 ### 存在的问题
 
-> 到目前为止，遇到哪些问题，及解决方法或思路
+特征选取有一定难度，需要多想规则，或者用神经网络提取特征。
 
 ### 下一步工作
 
-> 准备如何完成后续的工作
+完善特征信息，将特征合为一个特征表，构建提升树模型。
