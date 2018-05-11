@@ -74,6 +74,7 @@ missing count of geohash: 417508
 0-3分别对应浏览、收藏、加购物车、购买。浏览的操作次数要远远多于其他，这符合常理，同时也反映出一些符合实际的规律，比如操作的高峰在较为空闲的晚上，凌晨的时候操作次数最少。
 
 ![](https://github.com/oneoyz/bitdm.github.io/blob/master/2018/projects/P11/output/count_hour_17-18_4.png)
+
 单独看购买的操作，10:00-15:00和20:00-22:00是两个操作高峰时段。
 
 ### 模型选取
