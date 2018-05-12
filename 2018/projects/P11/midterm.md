@@ -61,23 +61,23 @@ missing count of geohash: 417508
 
 2. 对数据中的的购买做统计分析
 
-![](https://github.com/oneoyz/bitdm.github.io/blob/master/2018/projects/P11/output/count_day.png)
-![](https://github.com/oneoyz/bitdm.github.io/blob/master/2018/projects/P11/output/count_day_of_P.png)
+![](https://github.com/oneoyz/DM_User-Purchase-Prediction-Based-on-Mobile-Recommendation-Algorithm/blob/master/output/count_day.png)
+![](https://github.com/oneoyz/DM_User-Purchase-Prediction-Based-on-Mobile-Recommendation-Algorithm/blob/master/output/count_day_of_P.png)
 
 如图，在12.11和12.12操作次数远高于平常日，其中属于商品子集P的操作次数中，12.12的值也非常高，因此将这两天的数据剔除。
 
 ### 数据分析与可视化
 
 上面两张图可以反映除了双12期间的操作记录猛增，购买总体都是比较稳定的。为了挖掘不同操作的具体反映，选取了12.17和12.18两日48小时的操作进行呈现。
-![](https://github.com/oneoyz/bitdm.github.io/blob/master/2018/projects/P11/output/count_hour_17-18.png)
+![](https://github.com/oneoyz/DM_User-Purchase-Prediction-Based-on-Mobile-Recommendation-Algorithm/blob/master/output/count_hour_17-18.png)
 
 0-3分别对应浏览、收藏、加购物车、购买。浏览的操作次数要远远多于其他，这符合常理，同时也反映出一些符合实际的规律，比如操作的高峰在较为空闲的晚上，凌晨的时候操作次数最少。
 
-![](https://github.com/oneoyz/bitdm.github.io/blob/master/2018/projects/P11/output/count_hour_17-18_4.png)
+![](https://github.com/oneoyz/DM_User-Purchase-Prediction-Based-on-Mobile-Recommendation-Algorithm/blob/master/output/count_hour_17-18_4.png)
 
 单独看购买的操作，10:00-15:00和20:00-22:00是两个操作高峰时段。
 
-![](https://github.com/oneoyz/bitdm.github.io/blob/master/2018/projects/P11/output/user_count.PNG)
+![](https://github.com/oneoyz/DM_User-Purchase-Prediction-Based-on-Mobile-Recommendation-Algorithm/blob/master/output/user_count.PNG)
 
 上图是选取了部分的用户展示，CTR是购买转换率：浏览/购买。可以看到用户10001082的CTR为0.019，且没有收藏和加购物车的行为，说明该用户行为决断。用户108461135操作次数非常多，但购买率不怎么高。
 
