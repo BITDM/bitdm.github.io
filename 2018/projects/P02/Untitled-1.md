@@ -1,3 +1,4 @@
+
 ---
 layout: page
 mathjax: true
@@ -41,6 +42,7 @@ permalink: /2018/projects/p02/midterm/
 根据数据预处理得到的有关特征，在两种模型下计算特征的重要程度。
 #### 数据可视化
 下图展示了在lightGBM模型下，各个特征的重要性排名。
+![](imgs/01.png) 
 下图展示了在CatBoost模型下，各个特征的重要性排名。
 
 ### 模型选取
