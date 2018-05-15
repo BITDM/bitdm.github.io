@@ -1,4 +1,5 @@
 
+
 ---
 layout: page
 mathjax: true
@@ -43,7 +44,10 @@ permalink: /2018/projects/p02/midterm/
 #### 数据可视化
 下图展示了在lightGBM模型下，各个特征的重要性排名。
 ![](imgs/01.png) 
+![](imgs/02.png) 
 下图展示了在CatBoost模型下，各个特征的重要性排名。
+![](imgs/03.png) 
+![](imgs/04.png) 
 
 ### 模型选取
 我们选择LightGBM以及CatBoost分别进行数据挖掘。
