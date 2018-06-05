@@ -4,7 +4,7 @@ mathjax: true
 permalink: /2018/projects/p14/finalreport/
 ---
 
-# 基于内容的图像检索分析——中期报告
+# 基于内容的图像检索分析——终期报告
 
 ## 成员
 - 汪汗青
