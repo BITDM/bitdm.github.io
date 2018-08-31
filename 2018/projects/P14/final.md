@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-permalink: /2018/projects/p14/finalreport/
+permalink: /2018/projects/p14/final/
 ---
 
 # 基于内容的图像检索分析——终期报告
