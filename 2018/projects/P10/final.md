@@ -1,4 +1,10 @@
-隐式篇章关系分析
+---
+layout: page
+mathjax: true
+permalink: /2018/projects/p10/final/
+---
+
+## 隐式篇章关系分析
 
 小组成员：程伟 2120160984
 
