@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-permalink: /2019/projects/p08/proposal/
+permalink: /2019/projects/p09/proposal/
 ---
 
 > 注意: 上方的内容不要删除
