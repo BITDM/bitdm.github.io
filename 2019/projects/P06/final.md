@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-permalink: /2019/projects/p07/final/
+permalink: /2019/projects/p06/final/
 
 
 ---

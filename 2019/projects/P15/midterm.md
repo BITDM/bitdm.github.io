@@ -4,8 +4,6 @@ mathjax: true
 permalink: /2019/projects/p15/midterm/
 ---
 
-> 注意: 上方的内容不要删除
-
 ## 基于神经网络的个性化电影推荐
 
 ### 一、小组成员及分工

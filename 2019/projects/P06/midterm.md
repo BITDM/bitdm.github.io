@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-permalink: /2019/projects/p07/midterm/
+permalink: /2019/projects/p06/midterm/
 ---
 
 ## 项目进展报告

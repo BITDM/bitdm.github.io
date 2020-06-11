@@ -4,8 +4,6 @@ mathjax: true
 permalink: /2019/projects/p08/proposal/
 ---
 
-> 注意: 上方的内容不要删除
-
 ## 项目题目 
 胸部X光图像肺炎检测
 

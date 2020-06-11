@@ -1,3 +1,9 @@
+---
+layout: page
+mathjax: true
+permalink: /2019/projects/p08/midterm/
+---
+
 # Chest X-Ray Images (Pneumonia)
 
 ## 数据来源

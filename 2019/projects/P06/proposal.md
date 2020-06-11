@@ -4,7 +4,6 @@ mathjax: true
 permalink: /2019/projects/p06/proposal/
 ---
 
-> 注意: 上方的内容不要删除
 
 ## 基于用户行为和番剧特征的b站番剧推荐系统
 
@@ -15,8 +14,6 @@ permalink: /2019/projects/p06/proposal/
 | 万凯斌 | 3120181030 |
 | 曹昊天 | 3120180980 |
 | 李嘉盛 | 3120181083 |
-
-
 
 
 ### 问题描述

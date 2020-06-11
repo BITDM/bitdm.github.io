@@ -1,11 +1,9 @@
 ---
 layout: page
 mathjax: true
-permalink: /2019/projects/p12/proposal/
+permalink: /2019/projects/p12/final/
 
 ---
-
-> 注意: 上方的内容不要删除
 
 ## 基于不同算法的电影推荐系统的实现及比较-项目报告 
 
