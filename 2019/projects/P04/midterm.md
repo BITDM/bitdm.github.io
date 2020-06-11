@@ -1,3 +1,9 @@
+---
+layout: page
+mathjax: true
+permalink: /2019/projects/p04/midterm/
+---
+
 # 项目进展报告
 
 ## 数据获取及预处理

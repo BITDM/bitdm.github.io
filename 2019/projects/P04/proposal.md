@@ -4,8 +4,6 @@ mathjax: true
 permalink: /2019/projects/p04/proposal/
 ---
 
-> 注意: 上方的内容不要删除
-
 ## 项目题目 
 **腾讯社交广告高校算法大赛-相似人群拓展**
 
