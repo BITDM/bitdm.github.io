@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-permalink: /2019/projects/p01/midterm/
+permalink: /2020/projects/p01/midterm/
 ---
 
 ## 基于数据挖掘技术的个性化微博推荐
