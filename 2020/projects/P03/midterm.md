@@ -220,7 +220,7 @@ generate_word_cloud(segment_words, 'word_cloud/result/description.png')
 ```
 
 <div class="fig figcenter fighighlight">
-    <a href="img-mid/1.png"><img src="img-mid/1.png" ></a>
+    <a href="../img-mid/1.png"><img src="../img-mid/1.png" ></a>
 </div>
 
 * 福利`welfare`词云生成：
@@ -232,7 +232,7 @@ generate_word_cloud(segment_words, 'word_cloud/result/welfare.png')
 ```
 
 <div class="fig figcenter fighighlight">
-    <a href="img-mid/2.png"><img src="img-mid/2.png" ></a>
+    <a href="../img-mid/2.png"><img src="../img-mid/2.png" ></a>
 </div>
 
 ### 3. 模型选取
