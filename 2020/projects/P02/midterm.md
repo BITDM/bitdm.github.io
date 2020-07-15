@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-permalink: /2020/projects/p02/img-mid/
+permalink: /2020/projects/p02/midterm/
 ---
 
 ## 爱荷华州埃姆斯市房价预测
