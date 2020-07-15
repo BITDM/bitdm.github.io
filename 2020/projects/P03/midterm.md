@@ -219,7 +219,9 @@ segment_words = load_file('segment/result/seg_words.txt')
 generate_word_cloud(segment_words, 'word_cloud/result/description.png')
 ```
 
-![](midterm/1.png)
+<div class="fig figcenter fighighlight">
+    <a href="img-mid/1.png"><img src="img-mid/1.png" ></a>
+</div>
 
 * 福利`welfare`词云生成：
 
@@ -229,7 +231,9 @@ segment_words = df['welfare'].dropna().to_list()
 generate_word_cloud(segment_words, 'word_cloud/result/welfare.png')
 ```
 
-![](midterm/2.png)
+<div class="fig figcenter fighighlight">
+    <a href="img-mid/2.png"><img src="img-mid/2.png" ></a>
+</div>
 
 ### 3. 模型选取
 
