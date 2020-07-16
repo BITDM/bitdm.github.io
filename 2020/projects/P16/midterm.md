@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-permalink: /2020/projects/p15/midterm/
+permalink: /2020/projects/p16/midterm/
 ---
 
 ## Covid-19 全球性预测
