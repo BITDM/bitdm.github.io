@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-permalink: /2020/projects/p09/midterm/
+permalink: /2020/projects/p10/midterm/
 ---
 
 ## 热点话题检测

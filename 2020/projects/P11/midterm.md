@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-permalink: /2020/projects/p09/midterm/
+permalink: /2020/projects/p11/midterm/
 ---
 
 ## 天池大赛-工业蒸汽量预测
