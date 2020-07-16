@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-permalink: /2020/projects/p13/midterm/
+permalink: /2020/projects/p12/midterm/
 ---
 
 ## 动漫推荐系统设计与实现
