@@ -63,6 +63,12 @@ a:visited { color: #205caa; }
   background-color: #f7f6f1;
 }
 
+img {
+  max-width: 98%;
+  padding: 20px 4px 20px 4px;
+  border-bottom: 1px solid #999;
+  border-top: 1px solid #999;
+}
 /* Custom CSS rules for content */
 
 .embedded-video {
