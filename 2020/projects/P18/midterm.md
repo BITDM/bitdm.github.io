@@ -27,13 +27,13 @@ permalink: /2020/projects/p18/midterm/
 
 例如：
 
-![](https://cdn.u1.huluxia.com/g4/M01/72/C6/rBAAdl7oiVOAbWn1AAAo211XoAU660.png)
+![1.png](img-mid/1.png)
 
 #### 1.3 数据预处理
 
 首先查看不同字段的数据缺失比例情况：
 
-![](https://cdn.u1.huluxia.com/g4/M02/72/C7/rBAAdl7oiaOAIt3EAAAU_e1NimY746.png)
+![2.png](img-mid/2.png)
 
 可以看到除了`fips`字段以外，其他字段都没有缺失情况，而对于`fips`字段，也仅仅只有1%左右的数据缺失，因为 `fips` 与之前的 `county` 字段是一一对应关系，所以可以根据之前的`county`字段进行填充。
 
@@ -43,21 +43,21 @@ permalink: /2020/projects/p18/midterm/
 
 美国新冠肺炎确诊病例趋势图：
 
-![](https://cdn.u1.huluxia.com/g4/M02/74/0F/rBAAdl7pbhaAW551AAEEhZuLkag750.png)
+![3.png](img-mid/3.png)
 
 美国新冠肺炎死亡病例趋势图：
 
-![](https://cdn.u1.huluxia.com/g4/M02/74/0E/rBAAdl7pbZKAKblYAADLm5_cqjE021.png)
+![4.png](img-mid/4.png)
 
 从确认病例以及死亡病例日趋势图来看，两者都在三月末开始爆发，而从确诊以及死亡病例数量发展情况来看，今后的一段时间内有可能还会继续上升。
 
 截止目前每州的确认病例比例统计（前10）：
 
-![](https://cdn.u1.huluxia.com/g4/M01/74/14/rBAAdl7pceGAPSF-AAA5J6eSsOY930.png)
+![5.png](img-mid/5.png)
 
 截止目前每周的死亡病例统计：
 
-![](https://cdn.u1.huluxia.com/g4/M02/74/15/rBAAdl7pckCAUJzhAAA9xVD2LEE253.png)
+![6.png](img-mid/6.png)
 
 ### 3、模型选取
 
@@ -67,7 +67,9 @@ permalink: /2020/projects/p18/midterm/
 
 采用logistic模型与Exponential模型对从1月21日起至6月13为止美国新冠肺炎确诊人数以及死亡人数数据进行拟合，拟合结果如下图所示，左侧为确诊人数数据拟合结果，右侧为死亡人数数据拟合结果，图表下方是两种模型拟合结果的评估，评价指标采用的是RMSE，由结果可以看出只有关于美国新冠肺炎的死亡人数统计基本符合logistic模型并且rmse相对较小，其他的结果显示并不符合logistic模型与Exponential模型的描述。需要进一步改进采取合适的模型对美国新冠肺炎传染趋势进行描述。
 
-![](https://cdn.u1.huluxia.com/g4/M03/76/D9/rBAAdl7rTeqAN-rUAABNh_D9MGc562.png)![](https://cdn.u1.huluxia.com/g4/M02/76/D9/rBAAdl7rTgKAYxfzAABPB2LnF1I323.png)
+![7.png](img-mid/7.png)
+
+![8.png](img-mid/8.png)
 
 ### 5、存在的问题
 
